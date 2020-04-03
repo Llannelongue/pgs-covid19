@@ -1,0 +1,7 @@
+main:
+  - title: "Molecular PGSs"
+    url: /molecular-pgs/
+  - title: "Cellular PGSs"
+    url: /cellular-pgs/
+  - title: "COVID19 phenotypes"
+    url: /covid19-phenotype/
