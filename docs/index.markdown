@@ -70,7 +70,7 @@ gallery_logos:
  To facilitate downstream analysis, all the PGSs are calculated on UK Biobank and tested on INTERVAL.
 
 ## About us
-These work was led by Yu Xu, Scott R. Ritchie, Bram..., Loïc Lannelongue and Michael Inouye.
+These work was led by ...
 
 ### Supported by:
 
