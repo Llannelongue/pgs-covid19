@@ -1,6 +1,21 @@
 main:
+  - title: "PGSs"
+    url: /pgs/
+  # - title: "Molecular PGSs"
+  #   url: /molecular-pgs/
+  # - title: "Cellular PGSs"
+  #   url: /cellular-pgs/
+  # - title: "COVID19 phenotypes"
+  #   url: /covid19-phenotype/
+  - title: "About"
+    url: /about/
+
+pgs:
   - title: "Molecular PGSs"
-    url: /molecular-pgs/
+    children:
+      - title: PGS
+        url: /molecular-pgs/
+      - title: Download
   - title: "Cellular PGSs"
     url: /cellular-pgs/
   - title: "COVID19 phenotypes"

@@ -7,75 +7,158 @@
 #
 # For technical reasons, this file is *NOT* reloaded automatically when you use
 # 'bundle exec jekyll serve'. If you change this file, please restart the server process.
-#
-# If you need help with YAML syntax, here are some quick references for you:
-# https://learn-the-web.algonquindesign.ca/topics/markdown-yaml-cheat-sheet/#yaml
-# https://learnxinyminutes.com/docs/yaml/
-#
+
 # Site settings
 # These are used to personalize your new site. If you look in the HTML files,
 # you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
+title: "Polygenic scores for COVID-19"
+# masthead_title: "My Custom Title"
+# subtitle: "Still a work in progress"
+name: &myName "Inouye Lab"
+email: mikeinouye@gmail.com
+description: >- # this means to ignore newlines until "baseurl:"
+  Persentation of polygenic scores related to COVID19
+url: "https://llannelongue.github.io"
+baseurl: '/pgs-covid19'
+locale: 'en-GB'
 
-# markdown: GFM
-baseurl: "/pgs-covid19" # the subpath of your site, e.g. /blog
+twitter:
+  username: "CamBakerSGI"
+social:
+  links:
+    - &labTwitter "https://twitter.com/CamBakerSGI"
+    - &repoGithub "https://github.com/Llannelongue/pgs-covid19"
 
-title: Polygenic scores for COVID-19
-# email: your-email@example.com
-# description: >- # this means to ignore newlines until "baseurl:"
-#   Some preliminary results about COVID19-related PGS.
-# url: "" # the base hostname & protocol for your site, e.g. http://example.com
-# twitter_username: jekyllrb
-# github_username:  jekyll
+search: true
 
-# google_analytics: [Your Google Analytics tracking ID]
+analytics:
+  provider: "google-gtag"
+  google:
+    tracking_id: "UA-162820664-1"
 
 # Build settings
-# theme: jekyll-theme-cayman
+markdown: kramdown
 remote_theme: "mmistakes/minimal-mistakes@4.19.1"
-minimal_mistakes_skin: "default" # "default", "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum" "sunrise"
-locale: "en-GB"
+minimal_mistakes_skin: air # "default", "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum" "sunrise"
+
+# og_image: /assets/images/site-logo.png
+
+# Outputting
+permalink: /:categories/:title/
+# paginate: 3 # amount of posts to show
+# paginate_path: "/blog/page:num/"
+# timezone: # https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
+
+include:
+  - _pages
+
+collections:
+  pages:
+    output: true
+    permalink: /:path/
+
+# Exclude from processing.
+# The following items will not be processed, by default. Create a custom list
+# to override the default setting.
+# exclude:
+#   - Gemfile
+#   - Gemfile.lock
+#   - node_modules
+#   - vendor/bundle/
+#   - vendor/cache/
+#   - vendor/gems/
+#   - vendor/ruby/
+
+# Plugins (previously gems:)
+plugins:
+  - jekyll-paginate
+  - jekyll-sitemap
+  - jekyll-gist
+  - jekyll-feed
+  - jemoji
+  - jekyll-include-cache
+
+# author:
+#   name   : Inouye Lab
+#   avatar : "/assets/images/bio-photo.jpg"
+#   bio    : "PhD student in AI for medicine, on the fence between machine learning and biology."
+#   location: "Cambridge, UK and Melbouorne, Australia"
+#   links:
+#     - label: "Website"
+#       icon: "fas fa-fw fa-link"
+#       url: *myWebsite
+#     - label: "Twitter"
+#       icon: "fab fa-fw fa-twitter-square"
+#       url: *myTwitter
+#     - label: "GitHub"
+#       icon: "fab fa-fw fa-github"
+#       url: *myGithub
+#     - label: "LinkedIn"
+#       icon: "fab fa-fw fa-linkedin"
+#       url: *myLinkedin
 
 footer:
   links:
     - label: "Twitter"
       icon: "fab fa-fw fa-twitter-square"
-      url: "https://twitter.com/CamBakerSGI"
+      url: *labTwitter
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
-      url: "https://github.com/Llannelongue/pgs-covid19"
-
-plugins:
-  - jekyll-feed
-  - jekyll-include-cache
+      url: *repoGithub
+    - label: "Lab's website"
+      icon: "fas fa-link"
+      url: &labWebsite "http://www.inouyelab.org"
 
 defaults:
+  # _posts
+  # - scope:
+  #     path: ""
+  #     type: posts
+  #   values:
+  #     layout: single
+  #     author_profile: true
+  #     read_time: true
+  #     comments: true
+  #     share: true
+  #     related: true
   # _pages
   - scope:
-      path: ""
+      path: "_pages"
       type: pages
     values:
       layout: single
+      author_profile: false
+      toc: true
+      toc_sticky: true
+  - scope:
+      path: "_pages/pgs"
+      type: pages
+    values:
+      sidebar:
+        nav: pgs
 
-include: ["_pages"]
+breadcrumbs: true
 
-# Exclude from processing.
-# The following items will not be processed, by default.
-# Any item listed under the `exclude:` key here will be automatically added to
-# the internal "default list".
-#
-# Excluded items can be processed by explicitly listing the directories or
-# their entries' file path in the `include:` list.
-#
-# exclude:
-#   - .sass-cache/
-#   - .jekyll-cache/
-#   - gemfiles/
-#   - Gemfile
-#   - Gemfile.lock
-#   - node_modules/
-#   - vendor/bundle/
-#   - vendor/cache/
-#   - vendor/gems/
-#   - vendor/ruby/
+category_archive:
+  type: jekyll-archives
+  path: /categories/
+tag_archive:
+  type: jekyll-archives
+  path: /tags/
+jekyll-archives:
+  enabled:
+    - categories
+    - tags
+  layouts:
+    category: archive-taxonomy
+    tag: archive-taxonomy
+  permalinks:
+    category: /categories/:name/
+    tag: /tags/:name/
+
+compress_html:
+  clippings: all
+  ignore:
+    envs: development  # disable compression in dev environment

@@ -1,3 +1,0 @@
----
-permalink: /cellular-pgs/
----
