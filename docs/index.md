@@ -7,7 +7,7 @@ header:
   overlay_image: /assets/images/background_DNA.jpg
   <!-- overlay_filter: rgba(255, 255, 255, 0.) -->
 
-excerpt: "Rapid response to the pandemic"
+excerpt: "Some text to be added here"
 
 intro:
   - excerpt: "These are initial results obtained after training polygenic scores (PGSs) on the INTERVAL dataset and testing them on UK Biobank."
@@ -41,7 +41,7 @@ feature_cellular:
 feature_phenotype:
   - image_path: /assets/images/background_DNA.jpg
     title: "COVID19 phenotypes"
-    url: /pgs/covid19-phenotype/
+    url: /pgs/covid19-phenotypes/
     excerpt: "(death risk, severity, susceptibility)"
 
 gallery_logos:
@@ -67,7 +67,7 @@ gallery_logos:
 ## Methods
  These PGS are calculated based on a pipeline developed by [Xu. et al.](https://www.biorxiv.org/content/10.1101/2020.02.17.952788v1) (preprint).
 
- To facilitate downstream analysis, all the PGSs are calculated on UK Biobank and tested on INTERVAL.
+ All the PGSs are calculated and tested on INTERVAL.
 
 ## About us
 These work was led by ...

@@ -14,9 +14,9 @@ pgs:
   - title: "Molecular PGSs"
     children:
       - title: PGS
-        url: /molecular-pgs/
+        url: /pgs/molecular-pgs/
       - title: Download
   - title: "Cellular PGSs"
-    url: /cellular-pgs/
+    url: /pgs/cellular-pgs/
   - title: "COVID19 phenotypes"
-    url: /covid19-phenotype/
+    url: /pgs/covid19-phenotypes/
