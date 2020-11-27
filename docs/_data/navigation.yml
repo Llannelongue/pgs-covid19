@@ -1,6 +1,8 @@
 main:
+  - title: "Home"
+    url: /6d9045bc10baa17648d2959ae285c22339a8344d/
   - title: "PGSs"
-    url: /pgs/
+    url: /6d9045bc10baa17648d2959ae285c22339a8344d/pgs/
   # - title: "Molecular PGSs"
   #   url: /molecular-pgs/
   # - title: "Cellular PGSs"
@@ -8,15 +10,17 @@ main:
   # - title: "COVID19 phenotypes"
   #   url: /covid19-phenotype/
   - title: "About"
-    url: /about/
+    url: /6d9045bc10baa17648d2959ae285c22339a8344d/about/
 
 pgs:
+  - title: "QC"
+    url: /6d9045bc10baa17648d2959ae285c22339a8344d/qc-step
   - title: "Molecular PGSs"
     children:
       - title: PGS
-        url: /pgs/molecular-pgs/
+        url: /6d9045bc10baa17648d2959ae285c22339a8344d/pgs/molecular-pgs/
       - title: Download
   - title: "Cellular PGSs"
-    url: /pgs/cellular-pgs/
+    url: /6d9045bc10baa17648d2959ae285c22339a8344d/pgs/cellular-pgs/
   - title: "COVID19 phenotypes"
-    url: /pgs/covid19-phenotypes/
+    url: /6d9045bc10baa17648d2959ae285c22339a8344d/pgs/covid19-phenotypes/

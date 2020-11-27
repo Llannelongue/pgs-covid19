@@ -13,16 +13,19 @@
 # you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
-title: "Polygenic scores for COVID-19"
+title: "Molecular PGS atlas"
 # masthead_title: "My Custom Title"
 # subtitle: "Still a work in progress"
 name: &myName "Inouye Lab"
 email: mikeinouye@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
-  Persentation of polygenic scores related to COVID19
+  Persentation of polygenic scores on protein levels
 url: "https://llannelongue.github.io"
 baseurl: '/pgs-covid19'
 locale: 'en-GB'
+
+# Password hash used to access the website
+passwordHash: 6d9045bc10baa17648d2959ae285c22339a8344d # password: inouyelab
 
 twitter:
   username: "CamBakerSGI"
@@ -33,6 +36,7 @@ social:
 
 search: true
 
+# Google analytics credentials
 analytics:
   provider: "google-gtag"
   google:
@@ -45,12 +49,13 @@ minimal_mistakes_skin: air # "default", "air", "aqua", "contrast", "dark", "dirt
 
 # og_image: /assets/images/site-logo.png
 
-# Outputting
-permalink: /:categories/:title/
+# Default permalink for all pages/posts
+permalink: /6d9045bc10baa17648d2959ae285c22339a8344d/:categories/:title/
 # paginate: 3 # amount of posts to show
 # paginate_path: "/blog/page:num/"
 # timezone: # https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
 
+# To include the `_pages` subdirectory
 include:
   - _pages
 
@@ -133,13 +138,14 @@ defaults:
       toc: true
       toc_sticky: true
   - scope:
-      path: "_pages/pgs"
+      path: "_pages/6d9045bc10baa17648d2959ae285c22339a8344d/pgs"
       type: pages
     values:
       sidebar:
         nav: pgs
 
-breadcrumbs: true
+# Add path at top of each post/page (if true)
+breadcrumbs: false
 
 category_archive:
   type: jekyll-archives

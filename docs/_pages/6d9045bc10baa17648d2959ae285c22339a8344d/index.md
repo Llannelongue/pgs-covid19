@@ -1,7 +1,7 @@
 ---
 layout: splash
 
-permalink: /
+permalink: /6d9045bc10baa17648d2959ae285c22339a8344d/
 
 header:
   overlay_image: /assets/images/background_DNA.jpg
@@ -15,33 +15,33 @@ intro:
 feature_row:
   - image_path: /assets/images/background_DNA.jpg
     title: "Molecular PGSs"
-    url: /pgs/molecular-pgs/
+    url: /6d9045bc10baa17648d2959ae285c22339a8344d/pgs/molecular-pgs/
     excerpt: "(proteins, metabolites etc)"
   - image_path: /assets/images/background_DNA.jpg
     title: "Cellular PGSs"
-    url: /pgs/cellular-pgs/
+    url: /6d9045bc10baa17648d2959ae285c22339a8344d/pgs/cellular-pgs/
     excerpt: "(blood cell traits)"
   - image_path: /assets/images/background_DNA.jpg
     title: "COVID19 phenotypes"
-    url: /pgs/covid19-phenotype/
+    url: /6d9045bc10baa17648d2959ae285c22339a8344d/pgs/covid19-phenotype/
     excerpt: "(death risk, severity, susceptibility)"
 
 feature_molecular:
   - image_path: /assets/images/background_DNA.jpg
     title: "Molecular PGSs"
-    url: /pgs/molecular-pgs/
+    url: /6d9045bc10baa17648d2959ae285c22339a8344d/pgs/molecular-pgs/
     excerpt: "(proteins, metabolites etc)"
 
 feature_cellular:
   - image_path: /assets/images/background_DNA.jpg
     title: "Cellular PGSs"
-    url: /pgs/cellular-pgs/
+    url: /6d9045bc10baa17648d2959ae285c22339a8344d/pgs/cellular-pgs/
     excerpt: "(blood cell traits)"
 
 feature_phenotype:
   - image_path: /assets/images/background_DNA.jpg
     title: "COVID19 phenotypes"
-    url: /pgs/covid19-phenotypes/
+    url: /6d9045bc10baa17648d2959ae285c22339a8344d/pgs/covid19-phenotypes/
     excerpt: "(death risk, severity, susceptibility)"
 
 gallery_logos:
@@ -63,6 +63,7 @@ gallery_logos:
 {% include feature_row id="feature_cellular" type="right" %}
 
 {% include feature_row id="feature_phenotype" type="left" %}
+
 
 ## Methods
  These PGS are calculated based on a pipeline developed by [Xu. et al.](https://www.biorxiv.org/content/10.1101/2020.02.17.952788v1) (preprint).

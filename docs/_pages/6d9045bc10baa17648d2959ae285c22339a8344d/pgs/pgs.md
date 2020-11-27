@@ -1,5 +1,5 @@
 ---
-permalink: /pgs/
+permalink: /6d9045bc10baa17648d2959ae285c22339a8344d/pgs/
 ---
 A lot about PGSs here.
 
