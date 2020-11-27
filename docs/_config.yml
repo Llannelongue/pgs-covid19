@@ -24,6 +24,9 @@ url: "https://llannelongue.github.io"
 baseurl: '/pgs-covid19'
 locale: 'en-GB'
 
+# Password hash used to access the website
+passwordHash: 6d9045bc10baa17648d2959ae285c22339a8344d # password: inouyelab
+
 twitter:
   username: "CamBakerSGI"
 social:
@@ -33,6 +36,7 @@ social:
 
 search: true
 
+# Google analytics credentials
 analytics:
   provider: "google-gtag"
   google:
@@ -45,12 +49,13 @@ minimal_mistakes_skin: air # "default", "air", "aqua", "contrast", "dark", "dirt
 
 # og_image: /assets/images/site-logo.png
 
-# Outputting
-permalink: /:categories/:title/
+# Default permalink for all pages/posts
+permalink: /6d9045bc10baa17648d2959ae285c22339a8344d/:categories/:title/
 # paginate: 3 # amount of posts to show
 # paginate_path: "/blog/page:num/"
 # timezone: # https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
 
+# To include the `_pages` subdirectory
 include:
   - _pages
 
@@ -139,7 +144,8 @@ defaults:
       sidebar:
         nav: pgs
 
-breadcrumbs: true
+# Add path at top of each post/page (if true)
+breadcrumbs: false
 
 category_archive:
   type: jekyll-archives
