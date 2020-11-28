@@ -1,5 +1,5 @@
 ---
-title: "Cellular PGS"
+title: "Somalogic Protein Traits"
 classes: wide
 ---
 These PGS have been deposed already in the [PGS catalog](https://www.pgscatalog.org/publication/PGP000051/) trained on UK Biobank and tested on INTERVAL.

@@ -7,14 +7,16 @@ header:
   overlay_image: /assets/images/background_DNA.jpg
   <!-- overlay_filter: rgba(255, 255, 255, 0.) -->
 
-excerpt: "Some text to be added here"
+excerpt: ""
+
+
 
 intro:
   - excerpt: "These are initial results obtained after training polygenic scores (PGSs) on the INTERVAL dataset and testing them on UK Biobank."
 
 feature_row:
-  - image_path: /assets/images/background_DNA.jpg
-    title: "Molecular PGSs"
+  - image_path: /assets/images/SomaLogic_Logo.jpg
+    title: "SOMAscan Plasma Proteins"
     url: /6d9045bc10baa17648d2959ae285c22339a8344d/pgs/molecular-pgs/
     excerpt: "(proteins, metabolites etc)"
   - image_path: /assets/images/background_DNA.jpg
@@ -25,24 +27,36 @@ feature_row:
     title: "COVID19 phenotypes"
     url: /6d9045bc10baa17648d2959ae285c22339a8344d/pgs/covid19-phenotype/
     excerpt: "(death risk, severity, susceptibility)"
+  - image_path: /assets/images/background_DNA.jpg
+    title: "COVID19 phenotypes"
+    url: /6d9045bc10baa17648d2959ae285c22339a8344d/pgs/covid19-phenotype/
+    excerpt: "(death risk, severity, susceptibility)"
+
 
 feature_molecular:
-  - image_path: /assets/images/background_DNA.jpg
-    title: "Molecular PGSs"
-    url: /6d9045bc10baa17648d2959ae285c22339a8344d/pgs/molecular-pgs/
-    excerpt: "(proteins, metabolites etc)"
+  - image_path: /assets/images/SomaLogic_Logo.jpg
+    title: "Plasma Proteins"
+    url: /6d9045bc10baa17648d2959ae285c22339a8344d/pgs/somalogic-pgs/
+    excerpt: "(2300 traits)"
 
 feature_cellular:
-  - image_path: /assets/images/background_DNA.jpg
-    title: "Cellular PGSs"
+  - image_path: /assets/images/olink_logo.png
+    title: "Plasma Proteins"
     url: /6d9045bc10baa17648d2959ae285c22339a8344d/pgs/cellular-pgs/
-    excerpt: "(blood cell traits)"
+    excerpt: "(300 traits)"
+
+feature_metabolon:
+  - image_path: /assets/images/Metabolon_logo.png
+    title: "             Plasma metabolites"
+    url: /6d9045bc10baa17648d2959ae285c22339a8344d/pgs/covid19-phenotypes/
+    excerpt: "(900 traits)"
 
 feature_phenotype:
   - image_path: /assets/images/background_DNA.jpg
     title: "COVID19 phenotypes"
     url: /6d9045bc10baa17648d2959ae285c22339a8344d/pgs/covid19-phenotypes/
     excerpt: "(death risk, severity, susceptibility)"
+
 
 gallery_logos:
   - url: "https://www.hdruk.ac.uk"
@@ -60,7 +74,9 @@ gallery_logos:
 
 {% include feature_row id="feature_molecular" type="left" %}
 
-{% include feature_row id="feature_cellular" type="right" %}
+{% include feature_row id="feature_cellular" type="left" %}
+
+{% include feature_row id="feature_metabolon" type="left" %}
 
 {% include feature_row id="feature_phenotype" type="left" %}
 
