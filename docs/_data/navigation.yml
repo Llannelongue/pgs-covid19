@@ -1,8 +1,10 @@
 main:
   - title: "Home"
     url: /6d9045bc10baa17648d2959ae285c22339a8344d/
-  - title: "PGSs"
-    url: /6d9045bc10baa17648d2959ae285c22339a8344d/pgs/
+  - title: "PGS"
+    url: /6d9045bc10baa17648d2959ae285c22339a8344d/pgs/Somalogic-pgs/
+  - title: "Application"
+    url: /6d9045bc10baa17648d2959ae285c22339a8344d/pgs/covid19-phenotypes
   # - title: "Molecular PGSs"
   #   url: /molecular-pgs/
   # - title: "Cellular PGSs"
@@ -13,14 +15,14 @@ main:
     url: /6d9045bc10baa17648d2959ae285c22339a8344d/about/
 
 pgs:
-  - title: "QC"
-    url: /6d9045bc10baa17648d2959ae285c22339a8344d/qc-step
-  - title: "Molecular PGSs"
-    children:
-      - title: PGS
-        url: /6d9045bc10baa17648d2959ae285c22339a8344d/pgs/molecular-pgs/
-      - title: Download
-  - title: "Cellular PGSs"
-    url: /6d9045bc10baa17648d2959ae285c22339a8344d/pgs/cellular-pgs/
-  - title: "COVID19 phenotypes"
-    url: /6d9045bc10baa17648d2959ae285c22339a8344d/pgs/covid19-phenotypes/
+ # - title: "QC"
+  #  url: /6d9045bc10baa17648d2959ae285c22339a8344d/qc-step
+  - title: "Somalogic"
+    #children:
+     # - title: PGS
+    url: /6d9045bc10baa17648d2959ae285c22339a8344d/pgs/Somalogic-pgs/
+  - title: "Olink"
+    url: /6d9045bc10baa17648d2959ae285c22339a8344d/pgs/Olink-pgs/
+  - title: "Metabolon"
+    url: /6d9045bc10baa17648d2959ae285c22339a8344d/pgs/Metabolon-pgs/
+

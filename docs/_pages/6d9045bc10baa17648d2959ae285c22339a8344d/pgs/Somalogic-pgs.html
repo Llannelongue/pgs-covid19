@@ -1,0 +1,83 @@
+---
+title: "Somalogic Proteins"
+classes: wide
+---
+
+
+<h2>Summary of Trait PGS Training and Validation</h2>
+<p>
+ <i>Number of traits</i>:  <b>2384</b> <br>
+<i>Training cohort</i>:  <a href="https://www.intervalstudy.org.uk"><b>INTERVAL</b></a> <br>
+<i>Training sample size</i>:  <b>3175</b> <br>
+<i>External validation cohort</i>:  <a href="https://www.mrc-epid.cam.ac.uk/research/studies/fenland/"><b>FENLAND</b></a> <br>
+<i>External cohort sample size</i>:  <b>~8000</b> <br>
+<i>Evaluation Metric</i>: <b><i>r</i>  squared (<i>r</i>2) </b><br>
+</p>
+
+
+<h2>Explore and Download Trait PGS</h2>
+<style>
+   table:nth-of-type(1) {
+       display:table;
+       width:100%;
+  
+   }
+</style>
+
+<table class="display" width="100%">
+   {% for row in site.data.Somalogic_trait_info_list %}
+     {% if forloop.first %}
+     <thead>
+     <tr>  
+       {% for pair in row %}
+         <th>{{ pair[0] }}</th>
+       {% endfor %}
+     </tr>
+   </thead>
+     {% endif %}
+ 
+     {% tablerow pair in row %}
+       {{ pair[1] }}
+     {% endtablerow %}
+   {% endfor %}
+ </table> 
+
+<script>
+$('table').DataTable(
+   {autoWidth: false,
+      ordering: true,
+      "order": [[ 5, 'dsc' ]],
+
+      autoFill: true,
+      "columnDefs": [ {
+    "targets": 7,
+    "data": "weblink",
+    "render": function ( data, type, row, meta ) {
+      return '<a href="'+data+'">FTP</a>';
+    }
+  } ],
+  "columns": [
+    { "width": "15%", className: 'dt-center'},
+    { "width": "13%",className: 'dt-center' },
+    { className: 'dt-center'},
+    { className: 'dt-head-center'},
+    { className: 'dt-center'},
+    { className: 'dt-center'},
+    { "width": "12%",className: 'dt-center'},
+    { "width": "10%",className: 'dt-center'}
+  ]
+
+
+   }
+);
+</script>
+
+
+
+
+
+
+
+
+
+

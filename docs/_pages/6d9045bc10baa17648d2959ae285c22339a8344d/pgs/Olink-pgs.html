@@ -1,0 +1,62 @@
+---
+title: "Olink Proteins"
+classes: wide
+
+---
+
+
+
+
+<style>
+   table:nth-of-type(1) {
+       display:table;
+       width:100%;
+   }
+  
+   </style>
+
+<table class="display" width="100%">
+   {% for row in site.data.author %}
+     {% if forloop.first %}
+     <thead>
+     <tr>
+       {% for pair in row %}
+         <th>{{ pair[0] }}</th>
+       {% endfor %}
+     </tr>
+   </thead>
+     {% endif %}
+ 
+     {% tablerow pair in row %}
+       {{ pair[1] }}
+     {% endtablerow %}
+   {% endfor %}
+ </table>
+
+<script>
+$('table').DataTable(
+   {autoWidth: true,
+      ordering: true,
+      "columnDefs": [ {
+    "targets": 4,
+    "data": "weblink",
+    "render": function ( data, type, row, meta ) {
+      return '<a href="'+data+'">Download</a>';
+    }
+  } ]
+
+
+
+
+
+   }
+);
+</script>
+
+
+
+
+
+
+
+
