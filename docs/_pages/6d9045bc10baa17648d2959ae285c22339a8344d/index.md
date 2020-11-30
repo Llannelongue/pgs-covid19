@@ -36,7 +36,7 @@ feature_row:
 feature_molecular:
   - image_path: /assets/images/SomaLogic_Logo.jpg
     title: "Plasma proteins"
-    url: /6d9045bc10baa17648d2959ae285c22339a8344d/pgs/somalogic-pgs/
+    url: /6d9045bc10baa17648d2959ae285c22339a8344d/pgs/Somalogic-pgs/
     excerpt: "(2384 protein PGS, which were trained on [INTERVAL cohort](https://www.intervalstudy.org.uk/) and externally validated on [FENLAND cohort](https://www.mrc-epid.cam.ac.uk/research/studies/fenland/))"
 
 feature_cellular:
