@@ -1,18 +1,19 @@
 ---
-title: "Olink Proteins"
+title: "Metabolon Metabolites"
 classes: wide
 
 ---
 
 
 
+
 <h2>Summary of Trait PGS Training and Validation</h2>
 <p>
- <i>Number of traits</i>:  <b>309</b> <br>
-<i>Training cohort</i>:  <a href="https://www.intervalstudy.org.uk"><b>INTERVAL</b></a> <br>
-<i>Training sample size</i>:  <b>~4822</b> <br>
-<i>External validation cohorts</i>:  <a href="https://pubmed.ncbi.nlm.nih.gov/20568910/"><b>NSPHS</b></a>, <a href="https://www.ed.ac.uk/viking/about-us/our-studies"><b>ORCADES</b></a> <br>
-<i>External cohort sample sizes</i>:  <b>872, 1052</b> <br>
+<i>Number of traits</i>:  <b>727</b> <br>
+<i>Training cohort</i>:  <a href="https://www.intervalstudy.org.uk"><b>INTERVAL Phase 1</b></a> <br>
+<i>Training sample size</i>:  <b>~8153</b> <br>
+<i>External validation cohorts</i>:  <a href="https://www.intervalstudy.org.uk"><b>INTERVAL Phase 2</b></a> <br>
+<i>External cohort sample sizes</i>:  <b>~8114</b> <br>
 <i>Evaluation Metric</i>: <b><i>r</i>  squared (<i>r</i>2) </b><br>
 </p>
 
@@ -30,7 +31,7 @@ classes: wide
 
 
 <table class="display" width="100%">
-  {% for row in site.data.Olink_trait_info_list %}
+  {% for row in site.data.Metabolon_trait_info_list %}
     {% if forloop.first %}
     <thead>
     <tr>  
@@ -62,10 +63,10 @@ $('table').DataTable(
    }
  } ],
  "columns": [
-   { "width": "20%", className: 'dt-center'},
-   { "width": "12%",className: 'dt-center' },
+   { "width": "10%", className: 'dt-center'},
+   { "width": "12%",className: 'dt-head-center' },
    { className: 'dt-head-center'},
-   { className: 'dt-center'},
+   { className: 'dt-head-center'},
    { className: 'dt-center'},
    { className: 'dt-center'},
    { "width": "12%",className: 'dt-center'},
@@ -76,7 +77,6 @@ $('table').DataTable(
   }
 );
 </script>
-
 
 
 

@@ -42,20 +42,20 @@ feature_molecular:
 feature_cellular:
   - image_path: /assets/images/olink_logo.png
     title: "Plasma proteins"
-    url: /6d9045bc10baa17648d2959ae285c22339a8344d/pgs/test/
-    excerpt: "(300 protein PGS, which were trained on [INTERVAL cohort](https://www.intervalstudy.org.uk/) and externally validated on [NSPHS cohort](https://pubmed.ncbi.nlm.nih.gov/20568910/) and [ORCADES cohort](https://www.ed.ac.uk/viking/about-us/our-studies))"
+    url: /6d9045bc10baa17648d2959ae285c22339a8344d/pgs/Olink-pgs/
+    excerpt: "(309 protein PGS, which were trained on [INTERVAL cohort](https://www.intervalstudy.org.uk/) and externally validated on [NSPHS cohort](https://pubmed.ncbi.nlm.nih.gov/20568910/) and [ORCADES cohort](https://www.ed.ac.uk/viking/about-us/our-studies))"
 
 feature_metabolon:
   - image_path: /assets/images/Metabolon_logo.png
-    title: "             Plasma metabolites"
-    url: /6d9045bc10baa17648d2959ae285c22339a8344d/pgs/covid19-phenotypes/
-    excerpt: "(900 metabolites PGS, which were trained on [INTERVAL cohort Phase 1](https://www.intervalstudy.org.uk/) and validated on INTERVAL cohort Phase 2)"
+    title: "Plasma metabolites"
+    url: /6d9045bc10baa17648d2959ae285c22339a8344d/pgs/Metabolon-pgs/
+    excerpt: "(727 metabolites PGS, which were trained on [INTERVAL cohort Phase 1](https://www.intervalstudy.org.uk/) and validated on INTERVAL cohort Phase 2)"
 
 feature_phenotype:
   - image_path: /assets/images/UK_biobank_logo.png
     title: "Aossications with phenotypes in UK biobank"
     url: /6d9045bc10baa17648d2959ae285c22339a8344d/pgs/covid19-phenotypes/
-    excerpt: "(PGS models of mollecuar and celluar traits in this Atlas were applied to calculate PGSs of these traits of [UK biobank](https://www.ukbiobank.ac.uk/) samples, which were then used to test associations with vairous other complex phenotypes)"
+    excerpt: "(PGS models of molecular and celluar traits in this Atlas were applied to calculate PGSs of these traits of [UK biobank](https://www.ukbiobank.ac.uk/) [white british] samples , which were then used to test associations with vairous other complex phenotypes)"
 
 
 gallery_logos:
@@ -76,7 +76,7 @@ gallery_logos:
 ---
 <div style="text-align: justify"> 
 <p>
-This site offers services of exploring and downloading polygenic scores (PGS) of a wide range of mellecular and celluar traits in human whole blood, which includes proteins, metabolites, blood cell traits, etc..
+This site offers services of exploring and downloading polygenic scores (PGS) of a wide range of molecular and celluar traits in human whole blood, which includes proteins, metabolites, blood cell traits, etc..
 </p>
 </div>
 
