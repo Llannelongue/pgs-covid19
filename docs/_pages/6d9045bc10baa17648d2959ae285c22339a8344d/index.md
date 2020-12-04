@@ -54,7 +54,7 @@ feature_metabolon:
 feature_phenotype:
   - image_path: /assets/images/UK_biobank_logo.png
     title: "Associations with phenotypes in UK biobank"
-    url: /6d9045bc10baa17648d2959ae285c22339a8344d/pgs/covid19-phenotypes/
+    url: /6d9045bc10baa17648d2959ae285c22339a8344d/Application/covid19-phenotypes/
     excerpt: "(PGS models of molecular and celluar traits in this Atlas were applied to calculate PGSs of these traits of [UK biobank](https://www.ukbiobank.ac.uk/) samples (white british), which were then used to test associations with various other complex phenotypes)"
 
 
@@ -112,9 +112,6 @@ These PGSs were trained on the [INTERVAL study](https://www.intervalstudy.org.uk
 {% include feature_row id="feature_phenotype" type="left" %}
 <br/>
 
-
-
-
 ## Acknowledgements
 <div style="text-align: justify"> 
 <p>Participants in the INTERVAL randomised controlled trial were recruited with the active collaboration of <a href="http://www.nhsbt.nhs.uk">NHS Blood and Transplant England</a>, which has supported field work and other elements of the trial. DNA extraction and genotyping was co-funded by the National Institute for Health Research (NIHR), <a href="http://bioresource.nihr.ac.uk">the NIHR BioResource</a> and the NIHR [Cambridge Biomedical Research Centre at the Cambridge University Hospitals NHS Foundation Trust]. The academic coordinating centre for INTERVAL was supported by core funding from: NIHR Blood and Transplant Research Unit in Donor Health and Genomics (NIHR BTRU-2014-10024), UK Medical Research Council (MR/L003120/1), British Heart Foundation (SP/09/002; RG/13/13/30194; RG/18/13/33946) and the NIHR [Cambridge Biomedical Research Centre at the Cambridge University Hospitals NHS Foundation Trust]. A complete list of the investigators and contributors to the INTERVAL trial is provided in the <a href="https://pubmed.ncbi.nlm.nih.gov/28941948/">reference</a>. The academic coordinating centre would like to thank blood donor centre staff and blood donors for participating in the INTERVAL trial.</p>
@@ -123,6 +120,13 @@ These PGSs were trained on the [INTERVAL study](https://www.intervalstudy.org.uk
 <div style="text-align: justify"> 
 UK Biobank data access was approved under project 7439, and all the participants gave their informed consent for health research.
 </div>
+
+<br/>
+## Questions and Feedback
+We would love to hear from you! To provide feedback or ask a question, you can contact the Omics Atlas team at [here](mailto:yx322@medschl.cam.ac.uk).
+
+
+
 
 
 
