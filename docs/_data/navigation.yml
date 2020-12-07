@@ -4,7 +4,7 @@ main:
   - title: "PGS"
     url: /6d9045bc10baa17648d2959ae285c22339a8344d/pgs/Somalogic-pgs/
   - title: "Application"
-    url: /6d9045bc10baa17648d2959ae285c22339a8344d/Application/covid19-phenotypes/
+    url: /6d9045bc10baa17648d2959ae285c22339a8344d/Application/pgs_ukb_disease_asso/
   # - title: "Molecular PGSs"
   #   url: /molecular-pgs/
   # - title: "Cellular PGSs"
@@ -29,5 +29,5 @@ pgs:
 
 Application:
   - title: "UK Biobank"
-    url: /6d9045bc10baa17648d2959ae285c22339a8344d/Application/covid19-phenotypes/
+    url: /6d9045bc10baa17648d2959ae285c22339a8344d/Application/pgs_ukb_disease_asso/
 

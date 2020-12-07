@@ -54,7 +54,7 @@ feature_metabolon:
 feature_phenotype:
   - image_path: /assets/images/UK_biobank_logo.png
     title: "Associations with phenotypes in UK biobank"
-    url: /6d9045bc10baa17648d2959ae285c22339a8344d/Application/covid19-phenotypes/
+    url: /6d9045bc10baa17648d2959ae285c22339a8344d/Application/pgs_ukb_disease_asso/
     excerpt: "(PGS models of molecular and celluar traits in this Atlas were applied to calculate PGSs of these traits of [UK biobank](https://www.ukbiobank.ac.uk/) samples (white british), which were then used to test associations with various other complex phenotypes)"
 
 
