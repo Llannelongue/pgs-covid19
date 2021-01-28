@@ -20,8 +20,8 @@ name: &myName "Inouye Lab"
 email: mikeinouye@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
   Persentation of polygenic scores on protein levels
-url: "https://llannelongue.github.io"
-baseurl: '/pgs-covid19'
+url: "www.intervalpgs.org"
+# baseurl: '/pgs-covid19'
 locale: 'en-GB'
 
 # Password hash used to access the website
