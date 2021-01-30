@@ -109,9 +109,9 @@ footer:
     - label: "Twitter"
       icon: "fab fa-fw fa-twitter-square"
       url: *labTwitter
-    - label: "GitHub"
-      icon: "fab fa-fw fa-github"
-      url: *repoGithub
+    # - label: "GitHub"
+    #   icon: "fab fa-fw fa-github"
+    #   url: *repoGithub
     - label: "Lab's website"
       icon: "fas fa-link"
       url: &labWebsite "http://www.inouyelab.org"
