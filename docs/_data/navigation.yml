@@ -3,15 +3,15 @@ main:
     url: /6d9045bc10baa17648d2959ae285c22339a8344d/
   - title: "PGS"
     url: /6d9045bc10baa17648d2959ae285c22339a8344d/pgs/
-  - title: "Application"
-    url: /6d9045bc10baa17648d2959ae285c22339a8344d/Application/pgs_ukb_disease_asso/
+  - title: "Applications"
+    url: /6d9045bc10baa17648d2959ae285c22339a8344d/Application/pgs_ukb_disease_associations/
   # - title: "Molecular PGSs"
   #   url: /molecular-pgs/
   # - title: "Cellular PGSs"
   #   url: /cellular-pgs/
   # - title: "COVID19 phenotypes"
   #   url: /covid19-phenotype/
-  - title: "About Us"
+  - title: "About"
     url: /6d9045bc10baa17648d2959ae285c22339a8344d/about/
 
 pgs:
@@ -27,7 +27,7 @@ pgs:
     url: /6d9045bc10baa17648d2959ae285c22339a8344d/pgs/Metabolon-pgs/
 
 
-Application:
-  - title: "UK Biobank"
-    url: /6d9045bc10baa17648d2959ae285c22339a8344d/Application/pgs_ukb_disease_asso/
+# Application:
+#   - title: "UK Biobank"
+#     url: /6d9045bc10baa17648d2959ae285c22339a8344d/Application/pgs_ukb_disease_associations/
 
