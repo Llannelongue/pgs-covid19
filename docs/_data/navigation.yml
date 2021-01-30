@@ -2,7 +2,7 @@ main:
   - title: "Home"
     url: /6d9045bc10baa17648d2959ae285c22339a8344d/
   - title: "PGS"
-    url: /6d9045bc10baa17648d2959ae285c22339a8344d/pgs/Somalogic-pgs/
+    url: /6d9045bc10baa17648d2959ae285c22339a8344d/pgs/
   - title: "Application"
     url: /6d9045bc10baa17648d2959ae285c22339a8344d/Application/pgs_ukb_disease_asso/
   # - title: "Molecular PGSs"
