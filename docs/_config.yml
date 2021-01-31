@@ -42,7 +42,7 @@ search: true
 analytics:
   provider: "google-gtag"
   google:
-    tracking_id: "UA-162820664-1"
+    tracking_id: "G-KX0ZZ00H17"
 
 # Build settings
 markdown: kramdown
