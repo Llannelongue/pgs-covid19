@@ -36,11 +36,13 @@ gallery_logos:
     image_path: /assets/images/Baker_gallery.png
 
 ---
-
-<br/>
+# Welcome
+---
 You can explore and download polygenic scores (PGSs) for a wide range of molecular and cellular traits in human whole blood, including proteins, metabolites and blood cell traits.
 
 These PGSs were trained on the [INTERVAL cohort](https://www.intervalstudy.org.uk/) using the [Bayesian Ridge method](https://scikit-learn.org/stable/auto_examples/linear_model/plot_bayesian_ridge.html), and externally validated in other cohorts. Detailed methods and validation steps can be found in our [manuscripts](https://www.biorxiv.org/content/10.1101/2020.02.17.952788v1).
+<br/>
+<br/>
 <br/>
 
 # PGS resources
@@ -52,6 +54,7 @@ These PGSs were trained on the [INTERVAL cohort](https://www.intervalstudy.org.u
 # Applications of the PGS Atlas
 ---
 {% include feature_row id="feature_phenotype" type="left" %}
+<br/>
 
 ## Questions and Feedback
 
