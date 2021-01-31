@@ -11,22 +11,21 @@ classes: wide
 <p>
 <i>Number of traits</i>:  <b>727</b> <br>
 <i>Training cohort</i>:  <a href="https://www.intervalstudy.org.uk"><b>INTERVAL Phase 1</b></a> <br>
-<i>Training sample size</i>:  <b>~8153</b> <br>
+<i>Training sample size</i>:  <b>8,153</b> <br>
 <i>External validation cohorts</i>:  <a href="https://www.intervalstudy.org.uk"><b>INTERVAL Phase 2</b></a> <br>
-<i>External cohort sample sizes</i>:  <b>~8114</b> <br>
+<i>External cohort sample sizes</i>:  <b>8,114</b> <br>
 <i>Evaluation Metric</i>: <b><i>r</i>  squared (<i>r</i>2) </b><br>
 </p>
 
 
-<h2>Explore and Download Trait PGS</h2>
-
+<h2>Explore traits and download their PGS models:</h2>
 
 <style>
    table:nth-of-type(1) {
        display:table;
        width:100%;
    }
-  
+
    </style>
 
 
@@ -34,7 +33,7 @@ classes: wide
   {% for row in site.data.Metabolon_trait_info_list %}
     {% if forloop.first %}
     <thead>
-    <tr>  
+    <tr>
       {% for pair in row %}
         <th>{{ pair[0] }}</th>
       {% endfor %}
@@ -46,7 +45,7 @@ classes: wide
       {{ pair[1] }}
     {% endtablerow %}
   {% endfor %}
-</table> 
+</table>
 
 <script>
 $('table').DataTable(

@@ -1,11 +1,8 @@
 ---
-title: "Metabolon Metabolites"
+title: "PGS-phenotypes associations in UK Biobank"
 classes: wide
 
 ---
-
-
-
 
 
 <h2>Explore and Download Disease-Omics PGS Associations</h2>
@@ -16,7 +13,7 @@ classes: wide
        display:table;
        width:100%;
    }
-  
+
    </style>
 
 
@@ -24,7 +21,7 @@ classes: wide
   {% for row in site.data.UKB_disease_omics_PGS_assoc_nums_list %}
     {% if forloop.first %}
     <thead>
-    <tr>  
+    <tr>
       {% for pair in row %}
         <th>{{ pair[0] }}</th>
       {% endfor %}
@@ -36,7 +33,7 @@ classes: wide
       {{ pair[1] }}
     {% endtablerow %}
   {% endfor %}
-</table> 
+</table>
 
 <script>
 $('table').DataTable(

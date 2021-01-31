@@ -13,13 +13,15 @@
 # you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
-title: "The Omics PGS ATLAS"
+title: "The Omics PGS Atlas"
 # masthead_title: "My Custom Title"
 # subtitle: "Still a work in progress"
 name: &myName "Inouye Lab"
 email: mikeinouye@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
-  Persentation of polygenic scores on protein levels
+  You can explore and download polygenic scores (PGSs) for a wide range
+  of molecular and cellular traits in human whole blood, including proteins,
+  metabolites and blood cell traits.
 url: "www.intervalpgs.org"
 # baseurl: '/pgs-covid19'
 locale: 'en-GB'
@@ -40,7 +42,7 @@ search: true
 analytics:
   provider: "google-gtag"
   google:
-    tracking_id: "UA-162820664-1"
+    tracking_id: "G-KX0ZZ00H17"
 
 # Build settings
 markdown: kramdown
@@ -109,9 +111,9 @@ footer:
     - label: "Twitter"
       icon: "fab fa-fw fa-twitter-square"
       url: *labTwitter
-    - label: "GitHub"
-      icon: "fab fa-fw fa-github"
-      url: *repoGithub
+    # - label: "GitHub"
+    #   icon: "fab fa-fw fa-github"
+    #   url: *repoGithub
     - label: "Lab's website"
       icon: "fas fa-link"
       url: &labWebsite "http://www.inouyelab.org"
@@ -135,7 +137,7 @@ defaults:
     values:
       layout: single
       author_profile: false
-      toc: true
+      toc: false
       toc_sticky: true
   - scope:
       path: "_pages/6d9045bc10baa17648d2959ae285c22339a8344d/pgs"
