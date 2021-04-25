@@ -1,7 +1,7 @@
 main:
   - title: "Home"
     url: /6d9045bc10baa17648d2959ae285c22339a8344d/
-  - title: "PGS"
+  - title: "Scores"
     url: /6d9045bc10baa17648d2959ae285c22339a8344d/pgs/
   - title: "Applications"
     url: /6d9045bc10baa17648d2959ae285c22339a8344d/Application/pgs_ukb_disease_associations/
@@ -25,6 +25,8 @@ pgs:
     url: /6d9045bc10baa17648d2959ae285c22339a8344d/pgs/Olink-pgs/
   - title: "Metabolon"
     url: /6d9045bc10baa17648d2959ae285c22339a8344d/pgs/Metabolon-pgs/
+  - title: "Nightingale"
+    url: /6d9045bc10baa17648d2959ae285c22339a8344d/pgs/Nightingale-pgs/
 
 
 # Application:

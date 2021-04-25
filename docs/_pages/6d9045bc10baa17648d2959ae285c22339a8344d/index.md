@@ -2,30 +2,38 @@
 layout: splash
 permalink: /6d9045bc10baa17648d2959ae285c22339a8344d/
 
-title: "<br/>The Omics PGS Atlas"
-excerpt: "Polygenic Scores for Molecular <br/> and Cellular Traits <br/> <br/> "
+title: "<br/>The Atlas of Omics Genetic Scores "
+excerpt: "Genetic Scores for Blood Biomolecular Traits <br/> <br/> "
 header:
   overlay_image: /assets/images/home_banner.png
 
 feature_row_pgs:
   - image_path: /assets/images/SomaLogic_singleRow.png
-    title: "Plasma proteins"
+    title: "Blood proteins"
     url: /6d9045bc10baa17648d2959ae285c22339a8344d/pgs/Somalogic-pgs/
-    excerpt: "2,384 protein PGS externally validated on the [FENLAND cohort](https://www.mrc-epid.cam.ac.uk/research/studies/fenland/)."
+    excerpt: "2,384 protein genetic scores validated on the [FENLAND cohort](https://www.mrc-epid.cam.ac.uk/research/studies/fenland/)."
   - image_path: /assets/images/Olink_singleRow.png
-    title: "Plasma proteins"
+    title: "Blood proteins"
     url: /6d9045bc10baa17648d2959ae285c22339a8344d/pgs/Olink-pgs/
-    excerpt: "309 protein PGS externally validated on the [NSPHS cohort](https://pubmed.ncbi.nlm.nih.gov/20568910/) and [ORCADES cohort](https://www.ed.ac.uk/viking/about-us/our-studies)."
+    excerpt: "309 protein genetic scores validated on the [NSPHS cohort](https://pubmed.ncbi.nlm.nih.gov/20568910/) and [ORCADES cohort](https://www.ed.ac.uk/viking/about-us/our-studies)."
   - image_path: /assets/images/Metabolon_singleRow.png
-    title: "Plasma metabolites"
+    title: "Blood metabolites"
     url: /6d9045bc10baa17648d2959ae285c22339a8344d/pgs/Metabolon-pgs/
-    excerpt: "727 metabolites PGS validated on the INTERVAL cohort Phase 2."
+    excerpt: "727 metabolites genetic scores validated on the INTERVAL cohort Phase 2."
+  - image_path: /assets/images/Nightingale_logo.png
+    title: "Blood metabolites"
+    url: /6d9045bc10baa17648d2959ae285c22339a8344d/pgs/Nightingale-pgs/
+    excerpt: "141 metabolites genetic scores validated on [UK Biobank](https://www.ukbiobank.ac.uk/)."
+  - image_path: /assets/images/RNAseq_logo.png
+    title: "Blood gene expressions"
+    #url: /6d9045bc10baa17648d2959ae285c22339a8344d/pgs/Metabolon-pgs/
+    excerpt: "Coming soon"
 
 feature_phenotype:
   - image_path: /assets/images/UKB_largeFeature.png
     title: "Associations with phenotypes in UK biobank"
     url: /6d9045bc10baa17648d2959ae285c22339a8344d/Application/pgs_ukb_disease_associations/
-    excerpt: "PGS models of molecular and cellular traits from this Atlas were applied to [UK biobank](https://www.ukbiobank.ac.uk/) samples (white british) and used to test associations with various other complex phenotypes."
+    excerpt: "Genetic scores of biomolecular traits from this Atlas were applied to [UK biobank](https://www.ukbiobank.ac.uk/) samples (white british) and used to test associations with various other complex phenotypes."
 
 gallery_logos:
   - url: "https://www.phpc.cam.ac.uk"
@@ -38,19 +46,19 @@ gallery_logos:
 ---
 # Welcome
 ---
-You can explore and download polygenic scores (PGSs) for a wide range of molecular and cellular traits in human whole blood, including proteins, metabolites and blood cell traits.
+You can explore and download genetic scores for a wide range of biomolecular traits in human whole blood, including gene expressions, proteins, metabolites.
 
-These PGSs were trained on the [INTERVAL cohort](https://www.intervalstudy.org.uk/) using the [Bayesian Ridge method](https://scikit-learn.org/stable/auto_examples/linear_model/plot_bayesian_ridge.html), and externally validated in other cohorts. Detailed methods and validation steps can be found in our [manuscripts](https://www.biorxiv.org/content/10.1101/2020.02.17.952788v1).
+The genetic scores were trained on the [INTERVAL cohort](https://www.intervalstudy.org.uk/) using the [Bayesian Ridge method](https://scikit-learn.org/stable/auto_examples/linear_model/plot_bayesian_ridge.html), and externally validated in other cohorts. Detailed methods and validation steps can be found in our [manuscripts](https://www.biorxiv.org/content/10.1101/2020.02.17.952788v1).
 <br/>
 <br/>
 
-# PGS resources
+# Genetic Score resources
 ---
 
 {% include feature_row id="feature_row_pgs" %}
 <br/>
 
-# Applications of the PGS Atlas
+# Applications of Omics Genetic Scores in the Atlas
 ---
 {% include feature_row id="feature_phenotype" type="left" %}
 <br/>

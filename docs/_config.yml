@@ -13,15 +13,15 @@
 # you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
-title: "The Omics PGS Atlas"
+title: "The Atlas of Omics Genetic Scores "
 # masthead_title: "My Custom Title"
 # subtitle: "Still a work in progress"
 name: &myName "Inouye Lab"
 email: mikeinouye@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
-  You can explore and download polygenic scores (PGSs) for a wide range
+  You can explore and download genetic scores for a wide range
   of molecular and cellular traits in human whole blood, including proteins,
-  metabolites and blood cell traits.
+  metabolites and gene expressions.
 url: "www.intervalpgs.org"
 # baseurl: '/pgs-covid19'
 locale: 'en-GB'
