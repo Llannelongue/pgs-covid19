@@ -15,11 +15,11 @@ feature_row_pgs:
   - image_path: /assets/images/Olink_singleRow.png
     title: "Blood proteins"
     url: /6d9045bc10baa17648d2959ae285c22339a8344d/pgs/Olink-pgs/
-    excerpt: "309 protein genetic scores validated on the [NSPHS cohort](https://pubmed.ncbi.nlm.nih.gov/20568910/) and [ORCADES cohort](https://www.ed.ac.uk/viking/about-us/our-studies)."
+    excerpt: "308 protein genetic scores validated on the [NSPHS cohort](https://pubmed.ncbi.nlm.nih.gov/20568910/) and [ORCADES cohort](https://www.ed.ac.uk/viking/about-us/our-studies)."
   - image_path: /assets/images/Metabolon_singleRow.png
     title: "Blood metabolites"
     url: /6d9045bc10baa17648d2959ae285c22339a8344d/pgs/Metabolon-pgs/
-    excerpt: "727 metabolites genetic scores validated on the INTERVAL cohort Phase 2."
+    excerpt: "726 metabolites genetic scores validated on the INTERVAL cohort Phase 2."
   - image_path: /assets/images/Nightingale_logo.png
     title: "Blood metabolites"
     url: /6d9045bc10baa17648d2959ae285c22339a8344d/pgs/Nightingale-pgs/
@@ -52,7 +52,7 @@ The genetic scores were trained on the [INTERVAL cohort](https://www.intervalstu
 <br/>
 <br/>
 
-# Genetic Score resources
+# Genetic Score Resources
 ---
 
 {% include feature_row id="feature_row_pgs" %}

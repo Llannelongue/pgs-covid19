@@ -3,34 +3,42 @@ permalink: /6d9045bc10baa17648d2959ae285c22339a8344d/pgs/
 title: About the Genetic Scores
 ---
 
-## What is Genetic Score ? 
+## What is a genetic score ? 
 
-A lot about PGSs here.
+A genetic score, also called a polygenic score (PGS), polygenic risk score (PRS), genetic risk score, or genome-wide score, is a number that summarises the estimated effect of many genetic variants (usually SNPs) on an individual's phenotype, typically calculated as a weighted sum of trait-associated alleles [(wikepedia)](https://en.wikipedia.org/wiki/Polygenic_score).
 
 
-## Genetic Score Models in the Atlas ? 
-All PGSs files have the following format:
+## What does a genetic score model looks like in the Atlas? 
+A genetic score model file presents in the following format:
 
 | rsid | chr | pos | effect_allele | other_allele | Effect |
 | --- | --- | -- | --- | --- | --- |
 | rs116576188 | 6 | 31296369 | C | A | 0.015 |
 | rs568630420 | 6 | 31315587 | T | G | 0.02 |
-| ........... |  | |  |  |  |
+| ... |  | |  |  |  |
 | rs78630340 | 6 | 31342334 | A | T | 0.05 |
 
-With the following columns:
+where:
 
-| `rsid` | this is...
-| `chr` |
-| `pos` |
-| `effect_allele` |
-| `other_allele` |
-| `EN_Effect` |
+| `rsid` | rsID
+| `chr` |  Chromosome code
+| `pos` | base-pair coordinate
+| `effect_allele` | Effect allele with regard to the dosage of a variant
+| `other_allele` | The other allele
+| `Effect` | Effect size of the variant
 
 
-## How to calculate genetic scores ? 
-An easy way to calculate the PGS on a new cohort is to use PLINK2, here is an example:
+## How to calculate genetic scores with the genetic score model of a trait? 
+An easy way to calculate genetic scores of a new cohort is to use [PLINK2](https://www.cog-genomics.org/plink/2.0/score). Here is an example:
 
 ```shell
-> PLINK --ddd
+>plink2 
+--bfile ${bed_file} 
+--score ${model_file} 1 4 6 header list-variants cols=scoresums 
+--out  ${results}
 ```
+where:
+
+| `bed_file` | Plink bed file of genetic data in a new cohort
+| `model_file` |  Path for a genetic model file downloaded from the Atlas
+| `results` | Result file path

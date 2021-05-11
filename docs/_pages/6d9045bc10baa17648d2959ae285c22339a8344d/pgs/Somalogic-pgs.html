@@ -4,17 +4,17 @@ classes: wide
 ---
 
 
-<h3>Summary</h3>
+<h2>Summary</h2>
 <p>
- <i>Number of traits</i>:  <b>2,384</b> <br>
-<i>Training cohort</i>:  <a href="https://www.intervalstudy.org.uk"><b>INTERVAL</b></a> <br>
-<i>Training sample size</i>:  <b>3,175</b> <br>
-<i>External validation cohort</i>:  <a href="https://www.mrc-epid.cam.ac.uk/research/studies/fenland/"><b>FENLAND</b></a> <br>
-<i>External cohort sample size</i>:  <b>~8,000</b> <br>
-<i>Evaluation Metric</i>: <b><i>r</i>  squared (<i>r</i>2) </b><br>
+ Number of traits:  <b>2,384</b> <br>
+Training cohort:  <a href="https://www.intervalstudy.org.uk"><b>INTERVAL</b></a> <br>
+Training sample size:  <b>3,175</b> <br>
+External validation cohort:  <a href="https://www.mrc-epid.cam.ac.uk/research/studies/fenland/"><b>FENLAND</b></a> <br>
+External cohort sample size:  <b>~8,000</b> <br>
+Evaluation Metric: <b><i>r</i>  squared (<i>r</i>2) </b><br>
 </p>
 
-<h3>Downloads</h3>
+<h2>Downloads</h2>
 <p>
   <a href="https://app.box.com/s/f1zdcmp9etb352jau22bf8jx5rjte7ii" target="_blank"><b>Download full results</b></a>  &emsp;&emsp;
   
@@ -22,7 +22,7 @@ classes: wide
 </p>
 
 
-<h3>Explore traits and their genetic scores:</h3>
+<h2>Explore traits and their genetic scores:</h2>
 <style>
    table:nth-of-type(1) {
        display:table;
@@ -56,13 +56,10 @@ $('table').DataTable(
       "order": [[ 5, 'dsc' ]],
 
       autoFill: true,
-      "columnDefs": [ {
-    "targets": 7,
-    "data": "weblink",
-    "render": function ( data, type, row, meta ) {
-      return '<a href="'+data+'">FTP</a>';
-    }
-  } ],
+
+
+
+
   "columns": [
     { "width": "15%", className: 'dt-center'},
     { "width": "13%",className: 'dt-center' },
@@ -70,8 +67,7 @@ $('table').DataTable(
     { className: 'dt-head-center'},
     { className: 'dt-center'},
     { className: 'dt-center'},
-    { "width": "12%",className: 'dt-center'},
-    { "width": "10%",className: 'dt-center'}
+    { "width": "12%",className: 'dt-center'}
   ]
 
 

@@ -4,19 +4,20 @@ classes: wide
 
 ---
 
-<br/>
+
+<h2>Summary</h2>
 
 <p>
- <i>Number of traits</i>:  <b>309</b> <br>
-<i>Training cohort</i>:  <a href="https://www.intervalstudy.org.uk"><b>INTERVAL</b></a> <br>
-<i>Training sample size</i>:  <b>4,822</b> <br>
-<i>External validation cohorts</i>:  <a href="https://pubmed.ncbi.nlm.nih.gov/20568910/"><b>NSPHS</b></a>, <a href="https://www.ed.ac.uk/viking/about-us/our-studies"><b>ORCADES</b></a> <br>
-<i>External cohort sample sizes</i>:  <b>872,1052</b> <br>
-<i>Evaluation Metric</i>: <b><i>r</i>  squared (<i>r</i>2) </b><br>
+ Number of traits:  <b>308</b> <br>
+Training cohort:  <a href="https://www.intervalstudy.org.uk"><b>INTERVAL</b></a> <br>
+Training sample size:  <b>4,822</b> <br>
+External validation cohorts:  <a href="https://pubmed.ncbi.nlm.nih.gov/20568910/"><b>NSPHS</b></a>, <a href="https://www.ed.ac.uk/viking/about-us/our-studies"><b>ORCADES</b></a> <br>
+External cohort sample sizes:  <b>872,1052</b> <br>
+Evaluation Metric: <b><i>r</i>  squared (<i>r</i>2) </b><br>
 </p>
 
 
-<h2>Explore traits and download their genetic score models:</h2>
+<h2>Downloads</h2>
 
 <p>
   <a href="https://app.box.com/s/oab4lebhciuvw832flsj7rbnilq2mz68" target="_blank"><b>Download results</b></a>  &emsp;&emsp;
@@ -24,6 +25,7 @@ classes: wide
   <a href="https://app.box.com/s/mscnectl3oronxpzvf3ensygtmn5hzjz" target="_blank"><b>Download model files</b></a> 
 </p>
 
+<h2>Explore traits and their genetic scores</h2>
 
 <style>
    table:nth-of-type(1) {
@@ -59,13 +61,6 @@ $('table').DataTable(
      "order": [[ 4, 'dsc' ]],
 
      autoFill: true,
-     "columnDefs": [ {
-   "targets": 7,
-   "data": "weblink",
-   "render": function ( data, type, row, meta ) {
-     return '<a href="'+data+'">FTP</a>';
-   }
- } ],
  "columns": [
    { "width": "20%", className: 'dt-center'},
    { "width": "12%",className: 'dt-center' },
@@ -73,8 +68,7 @@ $('table').DataTable(
    { className: 'dt-center'},
    { className: 'dt-center'},
    { className: 'dt-center'},
-   { "width": "12%",className: 'dt-center'},
-   { "width": "10%",className: 'dt-center'}
+   { "width": "12%",className: 'dt-center'}
  ]
 
 

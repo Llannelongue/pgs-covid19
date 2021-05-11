@@ -7,25 +7,25 @@ classes: wide
 
 
 
-<h2>Summary of Trait PGS Training and Validation</h2>
+<h2>Summary</h2>
 <p>
-<i>Number of traits</i>:  <b>727</b> <br>
-<i>Training cohort</i>:  <a href="https://www.intervalstudy.org.uk"><b>INTERVAL Phase 1</b></a> <br>
-<i>Training sample size</i>:  <b>8,153</b> <br>
-<i>External validation cohorts</i>:  <a href="https://www.intervalstudy.org.uk"><b>INTERVAL Phase 2</b></a> <br>
-<i>External cohort sample sizes</i>:  <b>8,114</b> <br>
-<i>Evaluation Metric</i>: <b><i>r</i>  squared (<i>r</i>2) </b><br>
+Number of traits:  <b>726</b> <br>
+Training cohort:  <a href="https://www.intervalstudy.org.uk"><b>INTERVAL Phase 1</b></a> <br>
+Training sample size:  <b>8,153</b> <br>
+External validation cohorts:  <a href="https://www.intervalstudy.org.uk"><b>INTERVAL Phase 2</b></a> <br>
+External cohort sample sizes:  <b>8,114</b> <br>
+Evaluation Metric: <b><i>r</i>  squared (<i>r</i>2) </b><br>
 </p>
 
 
-<h2>Explore traits and download their genetic score models:</h2>
+<h2>Downloads</h2>
 <p>
   <a href="https://app.box.com/s/ysnz2cxcla1e23flyapnwv4kzsn3y15a"  target="_blank"><b>Download results</b></a>  &emsp;&emsp;
   
   <a href="https://app.box.com/s/krvivqp2u5h6n72tnsgz2rgg7bsjssuv"  target="_blank"><b>Download model files</b></a> 
 </p>
 
-
+<h2>Explore traits and their genetic scores</h2>
 <style>
    table:nth-of-type(1) {
        display:table;
@@ -60,13 +60,6 @@ $('table').DataTable(
      "order": [[ 4, 'dsc' ]],
 
      autoFill: true,
-     "columnDefs": [ {
-   "targets": 7,
-   "data": "weblink",
-   "render": function ( data, type, row, meta ) {
-     return '<a href="'+data+'">FTP</a>';
-   }
- } ],
  "columns": [
    { "width": "10%", className: 'dt-center'},
    { "width": "12%",className: 'dt-head-center' },
@@ -74,8 +67,7 @@ $('table').DataTable(
    { className: 'dt-head-center'},
    { className: 'dt-center'},
    { className: 'dt-center'},
-   { "width": "12%",className: 'dt-center'},
-   { "width": "10%",className: 'dt-center'}
+   { "width": "12%",className: 'dt-center'}
  ]
 
 
