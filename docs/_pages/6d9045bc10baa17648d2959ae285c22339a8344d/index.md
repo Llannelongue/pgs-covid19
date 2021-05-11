@@ -58,7 +58,7 @@ The genetic scores were trained on the [INTERVAL cohort](https://www.intervalstu
 {% include feature_row id="feature_row_pgs" %}
 <br/>
 
-# Applications of Omics Genetic Scores in the Atlas
+# Applications of Genetic Scores in the Atlas
 ---
 {% include feature_row id="feature_phenotype" type="left" %}
 <br/>

@@ -1,11 +1,11 @@
 ---
 permalink: /6d9045bc10baa17648d2959ae285c22339a8344d/pgs/
-title: About the Genetic Scores
+title: About Genetic Scores
 ---
 
 ## What is a genetic score ? 
 
-A genetic score, also called a polygenic score (PGS), polygenic risk score (PRS), genetic risk score, or genome-wide score, is a number that summarises the estimated effect of many genetic variants (usually SNPs) on an individual's phenotype, typically calculated as a weighted sum of trait-associated alleles [(wikepedia)](https://en.wikipedia.org/wiki/Polygenic_score).
+A genetic score, also called a polygenic score (PGS), polygenic risk score (PRS), genetic risk score, or genome-wide score, is a number that summarises the estimated effect of many genetic variants (usually SNPs) on an individual's phenotype, typically calculated as a weighted sum of trait-associated alleles [(wikipedia)](https://en.wikipedia.org/wiki/Polygenic_score).
 
 
 ## What does a genetic score model looks like in the Atlas? 
