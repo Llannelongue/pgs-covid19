@@ -1,5 +1,5 @@
 ---
-title: "Nightingale Metabolites"
+title: "RNAseq Gene Expressions"
 classes: wide
 
 ---
@@ -9,11 +9,11 @@ classes: wide
 
 <h2>Summary</h2>
 <p>
-Number of traits:  <b>141</b> <br>
-Training cohort:  <a href="https://www.intervalstudy.org.uk"><b>INTERVAL</b></a> <br>
-Training sample size:  <b>8,153</b> <br>
-External validation cohorts:  <a href="https://www.ukbiobank.ac.uk/"><b>UK Biobank</b></a> <br>
-External cohort sample sizes:  <b>8,114</b> <br>
+Number of traits:  <b>13,668</b> <br>
+Training cohort:  <a href="https://www.intervalstudy.org.uk"><b>INTERVAL Batches 1-12</b></a> <br>
+Training sample size:  <b></b> 4,136 <br>
+External validation cohorts:  <a href="https://www.intervalstudy.org.uk"><b>INTERVAL Batches 13-15</b></a> <br>
+External cohort sample sizes:  <b>598</b> <br>
 Evaluation Metric: <b><i>r</i>  squared (<i>r</i><sup>2</sup>) </b><br>
 </p>
 
@@ -22,9 +22,9 @@ Evaluation Metric: <b><i>r</i>  squared (<i>r</i><sup>2</sup>) </b><br>
 <h2>Downloads</h2>
 
 <p>
-  <a href="https://app.box.com/s/br70xhlb32ps8b46k1dyxvn88gstrw94" target="_blank"><b>Download results</b></a>  &emsp;&emsp;
+  <a href="https://app.box.com/s/p0nzp1tm4g6o279j45k6wu5z4jwfxvr7" target="_blank"><b>Download results</b></a>  &emsp;&emsp;
   
-  <a href="https://app.box.com/s/7e6vl3z8j880rkzxddufw0mtpxfw985z" target="_blank"><b>Download model files</b></a> 
+  <a href="" target="_blank"><b>Download model files</b></a> 
 </p>
 
 
@@ -40,7 +40,7 @@ Evaluation Metric: <b><i>r</i>  squared (<i>r</i><sup>2</sup>) </b><br>
 
 
 <table class="display" width="100%">
-  {% for row in site.data.Nightingale_trait_info_list %}
+  {% for row in site.data.gene_expressions_trait_info_list %}
     {% if forloop.first %}
     <thead>
     <tr>
@@ -61,18 +61,17 @@ Evaluation Metric: <b><i>r</i>  squared (<i>r</i><sup>2</sup>) </b><br>
 $('table').DataTable(
   {autoWidth: false,
      ordering: true,
-     "order": [[ 5, 'dsc' ]],
+     "order": [[ 3, 'dsc' ]],
 
      autoFill: true,
 
  "columns": [
-   { "width": "12%", className: 'dt-center'},
-   { "width": "20%",className: 'dt-head-center' },
    { className: 'dt-center'},
-   { className: 'dt-head-center'},
+   { className: 'dt-center' },
    { className: 'dt-center'},
    { className: 'dt-center'},
    { className: 'dt-center'}
+   
  ]
 
   }

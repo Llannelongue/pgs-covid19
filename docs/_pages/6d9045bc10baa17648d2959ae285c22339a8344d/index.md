@@ -26,8 +26,8 @@ feature_row_pgs:
     excerpt: "141 metabolites genetic scores validated on [UK Biobank](https://www.ukbiobank.ac.uk/)."
   - image_path: /assets/images/RNAseq_logo.png
     title: "Blood gene expressions"
-    #url: /6d9045bc10baa17648d2959ae285c22339a8344d/pgs/Metabolon-pgs/
-    excerpt: "Coming soon"
+    url: /6d9045bc10baa17648d2959ae285c22339a8344d/pgs/GE-pgs/
+    excerpt: "13,668 metabolites genetic scores validated on the INTERVAL batches 13-15"
 
 feature_phenotype:
   - image_path: /assets/images/UKB_largeFeature.png
