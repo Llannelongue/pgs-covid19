@@ -11,7 +11,7 @@ A genetic score, also called a polygenic score (PGS), polygenic risk score (PRS)
 ## What does a genetic score model looks like in the Atlas? 
 A genetic score model file presents in the following format:
 
-| rsid | chr | pos | effect_allele | other_allele | Effect |
+| rsid | chr | pos | effect_allele | other_allele | effect |
 | --- | --- | -- | --- | --- | --- |
 | rs116576188 | 6 | 31296369 | C | A | 0.015 |
 | rs568630420 | 6 | 31315587 | T | G | 0.02 |
@@ -20,12 +20,12 @@ A genetic score model file presents in the following format:
 
 where:
 
-| `rsid` | rsID
+| `rsid` | rsID (GRCh37)
 | `chr` |  Chromosome code
-| `pos` | base-pair coordinate
+| `pos` | Base-pair coordinate
 | `effect_allele` | Effect allele with regard to the dosage of a variant
 | `other_allele` | The other allele
-| `Effect` | Effect size of the variant
+| `effect` | Effect size of the variant
 
 
 ## How to calculate genetic scores with the genetic score model of a trait? 
