@@ -18,7 +18,7 @@ classes: wide
 
 
 <table class="display" width="100%">
-  {% for row in site.data.UKB_disease_omics_PGS_assoc_nums_list %}
+  {% for row in site.data.all_omics_PGS_assoc_UKB %}
     {% if forloop.first %}
     <thead>
     <tr>
@@ -43,17 +43,19 @@ $('table').DataTable(
 
      autoFill: true,
      "columnDefs": [ {
-   "targets": 4,
+   "targets": 6,
    "data": "weblink",
    "render": function ( data, type, row, meta ) {
-     return '<a href="'+data+'">FTP</a>';
+     return '<a href="'+data+'" target="_blank">FTP</a>';
    }
  } ],
  "columns": [
-   { "width": "15%", className: 'dt-head-center'},
+   { className: 'dt-head-center'},
    { className: 'dt-center' },
    { className: 'dt-center'},
    { className: 'dt-center'},
+   { className: 'dt-center'},
+   { "width": "18%",className: 'dt-center'},
    { className: 'dt-center'}
 
  ]
