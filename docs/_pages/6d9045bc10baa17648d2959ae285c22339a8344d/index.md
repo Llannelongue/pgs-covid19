@@ -2,8 +2,8 @@
 layout: splash
 permalink: /6d9045bc10baa17648d2959ae285c22339a8344d/
 
-title: "<br/>The Atlas of Omics Genetic Scores "
-excerpt: "Predicting multi-omic biomolecular traits in blood <br/> <br/> "
+title: " <br/>The Atlas of Genetic Scores for Prediction of Multi-Omics Data "
+excerpt: "  <br/>  <br/> "
 header:
   overlay_image: /assets/images/home_banner.png
 
