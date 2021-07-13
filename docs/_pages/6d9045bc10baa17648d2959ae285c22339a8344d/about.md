@@ -11,11 +11,6 @@ layout: splash
 ## About
 The Omics Atlas development was led by [Yu Xu](mailto:yx322@medschl.cam.ac.uk), under the supervison of [Michael Inouye](https://www.inouyelab.org/home/people) at the Department of Public Health and Primary Care, University of Cambridge.
 
-## Citation
-The Atlas is under active development, and we continue to add in genetic scores of more bimolecular traits and external validations. If you use the Atlas in your research we ask that you cite the following paper (under preparation):
-
-<em> Yu Xu, Scott Ritchie, Maik Pietzner, Samuel Lambert, Sebastian May-Wilson, Artika Nath, Praveen Surendran, Åsa Johansson, Elodie Persyn, Loïc Lannelongue, Bram Prins, Nicola Pirastu, Dirk Paul, Christopher Yau, James F. Wilson, Claudia Langenberg, Anders Mälarstig, John Danesh, Adam Butterworth, Michael Inouye. </em> **An atlas of genetic scores to predict multi-omic biomolecular traits in blood**.
-
 
 
 ## Our Collaborators
@@ -28,3 +23,6 @@ The Atlas is under active development, and we continue to add in genetic scores 
 
 
 
+## Acknowledgements
+
+Participants in the INTERVAL randomised controlled trial were recruited with the active collaboration of [NHS Blood and Transplant England](http://www.nhsbt.nhs.uk), which has supported field work and other elements of the trial. DNA extraction and genotyping was co-funded by the National Institute for Health Research (NIHR), [the NIHR BioResource](http://bioresource.nihr.ac.uk) and the NIHR [Cambridge Biomedical Research Centre at the Cambridge University Hospitals NHS Foundation Trust]. The academic coordinating centre for INTERVAL was supported by core funding from: NIHR Blood and Transplant Research Unit in Donor Health and Genomics (NIHR BTRU-2014-10024), UK Medical Research Council (MR/L003120/1), British Heart Foundation (SP/09/002; RG/13/13/30194; RG/18/13/33946) and the NIHR [Cambridge Biomedical Research Centre at the Cambridge University Hospitals NHS Foundation Trust]. A complete list of the investigators and contributors to the INTERVAL trial is provided in the [reference](https://pubmed.ncbi.nlm.nih.gov/28941948). The academic coordinating centre would like to thank blood donor centre staff and blood donors for participating in the INTERVAL trial. UK Biobank data access was approved under project 7439, and all the participants gave their informed consent for health research.
