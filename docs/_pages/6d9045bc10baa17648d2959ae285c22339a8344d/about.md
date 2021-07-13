@@ -12,7 +12,7 @@ layout: splash
 The Omics Atlas development was led by [Yu Xu](mailto:yx322@medschl.cam.ac.uk), under the supervison of [Michael Inouye](https://www.inouyelab.org/home/people) at the Department of Public Health and Primary Care, University of Cambridge.
 
 ## Citation
-The Atlas is under active development, and we continue to add in genetic scores of more bimolecular traits   and externally validate them. If you use the Atlas in your research we ask that you cite the following paper (under preparation):
+The Atlas is under active development, and we continue to add in genetic scores of more bimolecular traits and external validations. If you use the Atlas in your research we ask that you cite the following paper (under preparation):
 
 <em> Yu Xu, Scott Ritchie, Maik Pietzner, Samuel Lambert, Sebastian May-Wilson, Artika Nath, Praveen Surendran, Åsa Johansson, Elodie Persyn, Loïc Lannelongue, Bram Prins, Nicola Pirastu, Dirk Paul, Christopher Yau, James F. Wilson, Claudia Langenberg, Anders Mälarstig, John Danesh, Adam Butterworth, Michael Inouye. </em> **An atlas of genetic scores to predict multi-omic biomolecular traits in blood**.
 
