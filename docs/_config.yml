@@ -23,8 +23,8 @@ description: >- # this means to ignore newlines until "baseurl:"
   of molecular and cellular traits in human whole blood, including proteins,
   metabolites and gene expressions.
 url: "https://www.omicspred.org"
-baseurl: ''
-locale: 'en-GB'
+baseurl: ""
+locale: "en-GB"
 
 # Password hash used to access the website
 # passwordHash: 6d9045bc10baa17648d2959ae285c22339a8344d # password: inouyelab
