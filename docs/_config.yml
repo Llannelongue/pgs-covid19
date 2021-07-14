@@ -22,7 +22,7 @@ description: >- # this means to ignore newlines until "baseurl:"
   You can explore and download genetic scores for a wide range
   of molecular and cellular traits in human whole blood, including proteins,
   metabolites and gene expressions.
-url: "www.intervalpgs.org"
+url: "www.omicspred.org"
 # baseurl: '/pgs-covid19'
 locale: 'en-GB'
 
