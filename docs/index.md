@@ -68,7 +68,7 @@ INTERVAL is a randomised trial of approximately 50,000 healthy blood donors, whi
 <br/>
 <br/>
 
-# Platform with Genetic Scores
+# Platforms with Genetic Scores
 ---
 
 {% include feature_row id="feature_row_pgs" %} <br>
@@ -83,9 +83,11 @@ INTERVAL is a randomised trial of approximately 50,000 healthy blood donors, whi
 
 # Citation
 ---
-The Atlas is under active development, and we continue to add in genetic scores of more bimolecular traits and external validations. If you use the Atlas in your research we ask that you cite our submitted ASHG2021 abstract (full manuscript is under preparation):
+OMICSPRED is under active development, and we will continue to add genetic scores. If you use OMICSPRED in your research, we ask that you cite our submitted ASHG 2021 abstract for now (below). A full manuscript is in preparation and is anticipated to be preprinted in Q3/Q4 2021.
 
-<em> Yu Xu, Scott Ritchie, Maik Pietzner, Samuel Lambert, Sebastian May-Wilson, Artika Nath, Praveen Surendran, Åsa Johansson, Elodie Persyn, Loïc Lannelongue, Bram Prins, Nicola Pirastu, Dirk Paul, Christopher Yau, James F. Wilson, Claudia Langenberg, Anders Mälarstig, John Danesh, Adam Butterworth, Michael Inouye. </em> **An atlas of genetic scores to predict multi-omic biomolecular traits in blood.**
+Manuscript: <em> Xu Y. et al. </em> An atlas of genetic scores to predict multi-omic biomolecular traits in blood. (in preparation)
+
+ASHG Abstract: <em> Yu Xu, Scott Ritchie, Maik Pietzner, Samuel Lambert, Sebastian May-Wilson, Artika Nath, Praveen Surendran, Åsa Johansson, Elodie Persyn, Loïc Lannelongue, Bram Prins, Nicola Pirastu, Dirk Paul, Christopher Yau, James F. Wilson, Claudia Langenberg, Anders Mälarstig, John Danesh, Adam Butterworth, Michael Inouye. </em> **An atlas of genetic scores to predict multi-omic biomolecular traits in blood.** American Society of Human Genetics (2021)
 
 
 
@@ -93,7 +95,7 @@ The Atlas is under active development, and we continue to add in genetic scores 
 
 ## Questions and Feedback
 
-We would love to hear from you! To provide feedback or ask a question, you can contact the Omics Atlas team [here](mailto:yx322@medschl.cam.ac.uk).
+We would love to hear from you! To provide feedback or ask a question, you can contact the OMICSPRED team [here](mailto:yx322@medschl.cam.ac.uk).
 
 
 
