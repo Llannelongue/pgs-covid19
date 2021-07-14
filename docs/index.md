@@ -40,7 +40,7 @@ feature_phenotype:
   - image_path: /assets/images/UKB_largeFeature.png
     title: "Associations with phenotypes in UK biobank"
     url: /Application/pgs_ukb_disease_associations/
-    excerpt: "Genetic scores of biomolecular traits from this Atlas were applied to [UK biobank](https://www.ukbiobank.ac.uk/) samples (white british) and used to test associations with various other complex phenotypes."
+    excerpt: "Genetic scores in OMICSPRED have been applied to [UK biobank](https://www.ukbiobank.ac.uk/) to test for associations with various complex phenotypes."
 
 gallery_logos:
   - url: "https://www.phpc.cam.ac.uk"
@@ -76,7 +76,7 @@ INTERVAL is a randomised trial of approximately 50,000 healthy blood donors, whi
 
 
 
-# Application of Genetic Scores in the Atlas
+# Application of Genetic Scores
 ---
 {% include feature_row id="feature_phenotype" type="left" %}  <br>
 
