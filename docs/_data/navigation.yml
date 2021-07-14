@@ -19,13 +19,13 @@ pgs:
   #  url: /qc-step
   #- title: "Plasma Protein"
     #children:
-  - title: Somalogic
+  - title: Protein (Somalogic)
     url: /pgs/Somalogic-pgs/
-  - title: "Olink"
+  - title: "Protein (Olink)"
     url: /pgs/Olink-pgs/
-  - title: "Metabolon"
+  - title: "Metabolite (Metabolon)"
     url: /pgs/Metabolon-pgs/
-  - title: "Nightingale"
+  - title: "Metabolite (Nightingale)"
     url: /pgs/Nightingale-pgs/
   - title: "Gene Expression"
     url: /pgs/GE-pgs/
