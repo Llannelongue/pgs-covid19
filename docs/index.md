@@ -95,7 +95,7 @@ ASHG Abstract: <em> Yu Xu, Scott Ritchie, Maik Pietzner, Samuel Lambert, Sebasti
 
 ## Questions and Feedback
 
-We would love to hear from you! To provide feedback or ask a question, you can contact the OMICSPRED team [here](mailto:yx322@medschl.cam.ac.uk).
+We would love to hear from you! To provide feedback or ask a question, you can contact the OMICSPRED team [here](mailto:omicspred@gmail.com). 
 
 
 
