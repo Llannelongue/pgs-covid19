@@ -18,7 +18,7 @@ feature_row_pgs:
   - image_path: /assets/images/Metabolon_singleRow.png
     title: "Metabolites"
     url: /pgs/Metabolon-pgs/
-    excerpt: "726 metabolites genetic scores validated on the INTERVAL cohort Phase 2."
+    excerpt: "726 metabolites genetic scores validated on a held-out subset in INTERVAL."
   - image_path: /assets/images/Nightingale_logo.png
     title: "Metabolites"
     url: /pgs/Nightingale-pgs/
@@ -26,7 +26,7 @@ feature_row_pgs:
   - image_path: /assets/images/RNAseq_logo.png
     title: "Gene expressions"
     url: /pgs/GE-pgs/
-    excerpt: "13,668 gene expression genetic scores validated on the INTERVAL batches 13-15"
+    excerpt: "13,668 gene expression genetic scores validated on a held-out subset in INTERVAL"
 
 
 feature_study_intro:
