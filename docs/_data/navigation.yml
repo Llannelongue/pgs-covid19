@@ -5,6 +5,8 @@ main:
     url: /6d9045bc10baa17648d2959ae285c22339a8344d/pgs/
   - title: "Applications"
     url: /6d9045bc10baa17648d2959ae285c22339a8344d/Application/pgs_ukb_disease_associations/
+  - title: "FAQs"
+    url: /6d9045bc10baa17648d2959ae285c22339a8344d/faqs/
   # - title: "Molecular PGSs"
   #   url: /molecular-pgs/
   # - title: "Cellular PGSs"
