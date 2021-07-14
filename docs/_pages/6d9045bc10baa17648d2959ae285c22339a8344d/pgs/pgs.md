@@ -1,5 +1,6 @@
 ---
-permalink: /pgs/
+<!-- permalink: /pgs/ -->
+permalink: /6d9045bc10baa17648d2959ae285c22339a8344d/pgs/
 title: About Genetic Scores
 ---
 
@@ -20,7 +21,7 @@ A genetic score model file presents in the following format:
 
 where:
 
-| `rsid` | rsID 
+| `rsid` | rsID
 | `chr` |  Chromosome code
 | `pos` | Base-pair coordinate (GRCh37)
 | `effect_allele` | Effect allele with regard to the dosage of a variant

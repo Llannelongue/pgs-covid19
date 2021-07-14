@@ -1,6 +1,8 @@
 ---
 layout: splash
 
+permalink: /6d9045bc10baa17648d2959ae285c22339a8344d/
+
 title: " <br/>OMICSPRED: An atlas of genetic scores for prediction of multi-omics data"
 excerpt: "  <br/>  <br/> "
 header:
@@ -9,23 +11,23 @@ header:
 feature_row_pgs:
   - image_path: /assets/images/Somalogic_logo_simple.png
     title: "Proteomics (plasma)"
-    url: /pgs/Somalogic-pgs/
+    url: /6d9045bc10baa17648d2959ae285c22339a8344d/pgs/Somalogic-pgs/
     excerpt: "2,384 protein genetic scores, validated on the [FENLAND cohort](https://www.mrc-epid.cam.ac.uk/research/studies/fenland/)."
   - image_path: /assets/images/Olink_logo_simple.png
     title: "Proteomics (plasma)"
-    url: /pgs/Olink-pgs/
+    url: /6d9045bc10baa17648d2959ae285c22339a8344d/pgs/Olink-pgs/
     excerpt: "308 protein genetic scores, validated on the [NSPHS cohort](https://pubmed.ncbi.nlm.nih.gov/20568910/) and [ORCADES cohort](https://www.ed.ac.uk/viking/about-us/our-studies)."
   - image_path: /assets/images/Metabolon_logo_simple.png
     title: "Metabolomics (plasma)"
-    url: /pgs/Metabolon-pgs/
+    url: /6d9045bc10baa17648d2959ae285c22339a8344d/pgs/Metabolon-pgs/
     excerpt: "726 metabolite genetic scores, validated on a withheld subset of INTERVAL."
   - image_path: /assets/images/Nightingale_logo_simple.png
     title: "Metabolomics (serum)"
-    url: /pgs/Nightingale-pgs/
+    url: /6d9045bc10baa17648d2959ae285c22339a8344d/pgs/Nightingale-pgs/
     excerpt: "141 metabolite genetic scores, validated on [UK Biobank](https://www.ukbiobank.ac.uk/)."
   - image_path: /assets/images/RNAseq_logo_simple.png
     title: "Transcriptomics (whole blood)"
-    url: /pgs/GE-pgs/
+    url: /6d9045bc10baa17648d2959ae285c22339a8344d/pgs/GE-pgs/
     excerpt: "13,668 gene expression genetic scores, validated on a withheld subset of INTERVAL"
 
 
@@ -39,7 +41,7 @@ feature_study_intro:
 feature_phenotype:
   - image_path: /assets/images/UKB_largeFeature.png
     title: "Associations with phenotypes in UK biobank"
-    url: /Application/pgs_ukb_disease_associations/
+    url: /6d9045bc10baa17648d2959ae285c22339a8344d/Application/pgs_ukb_disease_associations/
     excerpt: "Genetic scores in OMICSPRED have been applied to [UK biobank](https://www.ukbiobank.ac.uk/) to test for associations with various complex phenotypes."
 
 gallery_logos:
@@ -95,7 +97,7 @@ ASHG Abstract: <em> Yu Xu, Scott Ritchie, Maik Pietzner, Samuel Lambert, Sebasti
 
 ## Questions and Feedback
 
-We would love to hear from you! To provide feedback or ask a question, you can contact the OMICSPRED team [here](mailto:omicspred@gmail.com). 
+We would love to hear from you! To provide feedback or ask a question, you can contact the OMICSPRED team [here](mailto:omicspred@gmail.com).
 
 
 
