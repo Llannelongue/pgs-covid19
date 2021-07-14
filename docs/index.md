@@ -1,7 +1,7 @@
 ---
 layout: splash
 
-title: " <br/>The Atlas of Genetic Scores for Prediction of Multi-Omics Data "
+title: " <br/>OMICSPRED: The Atlas of Genetic Scores for Prediction of Multi-Omics Data "
 excerpt: "  <br/>  <br/> "
 header:
   overlay_image: /assets/images/home_banner.png
