@@ -7,7 +7,7 @@ header:
   overlay_image: /assets/images/home_banner.png
 
 feature_row_pgs:
-  - image_path: /assets/images/SomaLogic_logo_simple.png
+  - image_path: /assets/images/Somalogic_logo_simple.png
     title: "Proteomics (plasma)"
     url: /pgs/Somalogic-pgs/
     excerpt: "2,384 protein genetic scores, validated on the [FENLAND cohort](https://www.mrc-epid.cam.ac.uk/research/studies/fenland/)."
