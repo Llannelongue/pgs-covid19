@@ -7,26 +7,26 @@ header:
   overlay_image: /assets/images/home_banner.png
 
 feature_row_pgs:
-  - image_path: /assets/images/SomaLogic_singleRow.png
+  - image_path: /assets/images/SomaLogic_logo_simple.png
     title: "Proteomics (plasma)"
     url: /pgs/Somalogic-pgs/
     excerpt: "2,384 protein genetic scores, validated on the [FENLAND cohort](https://www.mrc-epid.cam.ac.uk/research/studies/fenland/)."
-  - image_path: /assets/images/Olink_singleRow.png
+  - image_path: /assets/images/Olink_logo_simple.png
     title: "Proteomics (plasma)"
     url: /pgs/Olink-pgs/
     excerpt: "308 protein genetic scores, validated on the [NSPHS cohort](https://pubmed.ncbi.nlm.nih.gov/20568910/) and [ORCADES cohort](https://www.ed.ac.uk/viking/about-us/our-studies)."
-  - image_path: /assets/images/Metabolon_singleRow.png
+  - image_path: /assets/images/Metabolon_logo_simple.png
     title: "Metabolomics (plasma)"
     url: /pgs/Metabolon-pgs/
-    excerpt: "726 metabolite genetic scores, validated on a held-out subset of INTERVAL."
-  - image_path: /assets/images/Nightingale_logo.png
+    excerpt: "726 metabolite genetic scores, validated on a withheld subset of INTERVAL."
+  - image_path: /assets/images/Nightingale_logo_simple.png
     title: "Metabolomics (serum)"
     url: /pgs/Nightingale-pgs/
     excerpt: "141 metabolite genetic scores, validated on [UK Biobank](https://www.ukbiobank.ac.uk/)."
-  - image_path: /assets/images/RNAseq_logo.png
+  - image_path: /assets/images/RNAseq_logo_simple.png
     title: "Transcriptomics (whole blood)"
     url: /pgs/GE-pgs/
-    excerpt: "13,668 gene expression genetic scores, validated on a held-out subset of INTERVAL"
+    excerpt: "13,668 gene expression genetic scores, validated on a withheld subset of INTERVAL"
 
 
 feature_study_intro:
