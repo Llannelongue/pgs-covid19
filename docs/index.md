@@ -8,25 +8,25 @@ header:
 
 feature_row_pgs:
   - image_path: /assets/images/SomaLogic_singleRow.png
-    title: "Proteins"
+    title: "Proteomics (plasma)"
     url: /pgs/Somalogic-pgs/
-    excerpt: "2,384 protein genetic scores validated on the [FENLAND cohort](https://www.mrc-epid.cam.ac.uk/research/studies/fenland/)."
+    excerpt: "2,384 protein genetic scores, validated on the [FENLAND cohort](https://www.mrc-epid.cam.ac.uk/research/studies/fenland/)."
   - image_path: /assets/images/Olink_singleRow.png
-    title: "Proteins"
+    title: "Proteomics (plasma)"
     url: /pgs/Olink-pgs/
-    excerpt: "308 protein genetic scores validated on the [NSPHS cohort](https://pubmed.ncbi.nlm.nih.gov/20568910/) and [ORCADES cohort](https://www.ed.ac.uk/viking/about-us/our-studies)."
+    excerpt: "308 protein genetic scores, validated on the [NSPHS cohort](https://pubmed.ncbi.nlm.nih.gov/20568910/) and [ORCADES cohort](https://www.ed.ac.uk/viking/about-us/our-studies)."
   - image_path: /assets/images/Metabolon_singleRow.png
-    title: "Metabolites"
+    title: "Metabolomics (plasma)"
     url: /pgs/Metabolon-pgs/
-    excerpt: "726 metabolites genetic scores validated on a held-out subset in INTERVAL."
+    excerpt: "726 metabolite genetic scores, validated on a held-out subset of INTERVAL."
   - image_path: /assets/images/Nightingale_logo.png
-    title: "Metabolites"
+    title: "Metabolomics (serum)"
     url: /pgs/Nightingale-pgs/
-    excerpt: "141 metabolite genetic scores validated on [UK Biobank](https://www.ukbiobank.ac.uk/)."
+    excerpt: "141 metabolite genetic scores, validated on [UK Biobank](https://www.ukbiobank.ac.uk/)."
   - image_path: /assets/images/RNAseq_logo.png
-    title: "Gene expressions"
+    title: "Transcriptomics (whole blood)"
     url: /pgs/GE-pgs/
-    excerpt: "13,668 gene expression genetic scores validated on a held-out subset in INTERVAL"
+    excerpt: "13,668 gene expression genetic scores, validated on a held-out subset of INTERVAL"
 
 
 feature_study_intro:
@@ -64,7 +64,7 @@ Genetic scores were trained on the [INTERVAL cohort](https://www.intervalstudy.o
 
 <img src="/assets/images/interval-logo.png" alt="drawing"  style="float: right; margin-left: 1em; margin-top: 0.5em; width:350px; height:180px"/>
 
-INTERVAL is a randomised trial of approximately 50,000 healthy blood donors, which aims to study the safety of varying frequency of blood donation. Between June 2012 and June 2014, the study recruited about 25,000 men and about 25,000 women aged 18 years and older (median 44 years of age) at 25 NHS Blood and Transplant (NSHBT) blood donation centres across England. The  collection  of  their  blood  samples  for  research  purposes  was  done  using  standard  protocols and  has  been  extensively [described  previously](http://www.intervalstudy.org.uk/files/2019/11/Moore-et-al.-Trials-2014.pdf).
+INTERVAL is a cohort of healthy blood donors (N~50,000; recruited 2012-2014) which was set up by the Universities of Cambridge and Oxford in collaboration with NHS Blood and Transplant (NHSBT). INTERVAL's design is a randomised trial to study the safety of varying the time interval between blood donations. INTERVAL participants include approx. 25,000 men and 25,000 women, recruited at aged 18 years and older (median 44 years of age) across 25 NSHBT blood donation centres across England. Methods of collection have been [described previously](http://www.intervalstudy.org.uk/files/2019/11/Moore-et-al.-Trials-2014.pdf). As described here, blood samples have been extensively profiled using various omics technologies.
 <br/>
 <br/>
 
