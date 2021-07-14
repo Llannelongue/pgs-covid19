@@ -22,7 +22,7 @@ feature_row_pgs:
   - image_path: /assets/images/Nightingale_logo.png
     title: "Metabolites"
     url: /pgs/Nightingale-pgs/
-    excerpt: "141 metabolites genetic scores validated on [UK Biobank](https://www.ukbiobank.ac.uk/)."
+    excerpt: "141 metabolite genetic scores validated on [UK Biobank](https://www.ukbiobank.ac.uk/)."
   - image_path: /assets/images/RNAseq_logo.png
     title: "Gene expressions"
     url: /pgs/GE-pgs/
