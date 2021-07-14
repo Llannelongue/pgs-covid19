@@ -20,9 +20,9 @@ A genetic score model file presents in the following format:
 
 where:
 
-| `rsid` | rsID (GRCh37)
+| `rsid` | rsID 
 | `chr` |  Chromosome code
-| `pos` | Base-pair coordinate
+| `pos` | Base-pair coordinate (GRCh37)
 | `effect_allele` | Effect allele with regard to the dosage of a variant
 | `other_allele` | The other allele
 | `effect` | Effect size of the variant
