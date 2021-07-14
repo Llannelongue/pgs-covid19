@@ -1,7 +1,7 @@
 ---
 layout: splash
 
-title: " <br/>OMICSPRED: The Atlas of Genetic Scores for Prediction of Multi-Omics Data "
+title: " <br/>OMICSPRED: An atlas of genetic scores for prediction of multi-omics data"
 excerpt: "  <br/>  <br/> "
 header:
   overlay_image: /assets/images/home_banner.png
@@ -51,9 +51,9 @@ gallery_logos:
     image_path: /assets/images/Baker_gallery.png
 
 ---
-# The Atlas
+# Summary
 ---
-You can explore and download genetic scores for a wide range of biomolecular traits in human whole blood, including gene expressions, proteins, metabolites.
+OMICSPRED is a resource for predicting multi-omics data (proteomics, metabolomics, transcriptomics etc) directly from genotypes. To do this, we have used a single cohort (INTERVAL) with extensive multi-omics data to train genetic scores using machine learning. Here, you can explore and download the genetic scores for a wide range of biomolecular traits in human blood as well as the summary statistics of their associations with key traits and diseases in the UK Biobank.
 
 The genetic scores were trained on the [INTERVAL cohort](https://www.intervalstudy.org.uk/) using the [Bayesian Ridge method](https://scikit-learn.org/stable/auto_examples/linear_model/plot_bayesian_ridge.html), and externally validated in other cohorts. Detailed methods and validation steps can be found in our [manuscripts](https://www.biorxiv.org/content/10.1101/2020.02.17.952788v1).
 <br/>
