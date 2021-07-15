@@ -57,7 +57,7 @@ gallery_logos:
 ---
 OMICSPRED is a resource for predicting multi-omics data (proteomics, metabolomics, transcriptomics etc) directly from genotypes. To do this, we have used a single cohort (INTERVAL) with extensive multi-omics data to train genetic scores using machine learning. Here, you can explore and download the genetic scores for a wide range of biomolecular traits in human blood as well as the summary statistics of their associations with key traits and diseases in the UK Biobank.
 
-Genetic scores were trained on the [INTERVAL cohort](https://www.intervalstudy.org.uk/) using [Bayesian Ridge regression](https://scikit-learn.org/stable/auto_examples/linear_model/plot_bayesian_ridge.html). Validation was performed on independent individuals from other cohorts or on withheld subsets of INTERVAL (more info below). Detailed methods and validation steps can be found here (LINK TO SOMEWHERE ON THE SITE THAT DESCRIBES THIS).
+Genetic scores were trained on the [INTERVAL cohort](https://www.intervalstudy.org.uk/) using [Bayesian Ridge regression](https://scikit-learn.org/stable/auto_examples/linear_model/plot_bayesian_ridge.html). Validation was performed on independent individuals from other cohorts or on withheld subsets of INTERVAL (more info below). Detailed methods and validation steps can be found <a href="/6d9045bc10baa17648d2959ae285c22339a8344d/faqs/">here</a>.
 <br/>
 <br/>
 

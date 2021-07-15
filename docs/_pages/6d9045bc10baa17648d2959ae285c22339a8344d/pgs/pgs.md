@@ -4,6 +4,9 @@ permalink: /6d9045bc10baa17648d2959ae285c22339a8344d/pgs/
 title: About Genetic Scores
 ---
 
+
+<b><span style="color:blue"> <--- Select from navigation bar at the left to explore genetic scores in the OMICSPRED Atlas!</span></b>
+
 ## What is a genetic score ?
 
 A genetic score, also called a polygenic score (PGS), polygenic risk score (PRS), genetic risk score, or genome-wide score, is a number that summarises the estimated effect of many genetic variants (usually SNPs) on an individual's phenotype, typically calculated as a weighted sum of trait-associated alleles [(wikipedia)](https://en.wikipedia.org/wiki/Polygenic_score).
@@ -43,3 +46,5 @@ where:
 | `bed_file` | Plink bed file of genetic data in a new cohort
 | `model_file` |  Path for a genetic model file downloaded from the Atlas
 | `results` | Result file path
+
+ 
