@@ -28,7 +28,7 @@ feature_row_pgs:
   - image_path: /assets/images/RNAseq_logo_simple.png
     title: "Transcriptomics (whole blood)"
     url: /6d9045bc10baa17648d2959ae285c22339a8344d/pgs/GE-pgs/
-    excerpt: "13,668 gene expression genetic scores, validated on a withheld subset of INTERVAL"
+    excerpt: "13,668 gene expression genetic scores, validated on a withheld subset of INTERVAL."
 
 
 feature_study_intro:

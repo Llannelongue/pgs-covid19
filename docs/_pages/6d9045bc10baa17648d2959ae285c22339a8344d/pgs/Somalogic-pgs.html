@@ -17,7 +17,7 @@ Evaluation Metric: <b>Spearman correlation coefficient</b>, <b><i>r</i>  squared
 
 <h2>Downloads</h2>
 <p>
-  <a href="https://app.box.com/s/f1zdcmp9etb352jau22bf8jx5rjte7ii" target="_blank"><b>Download results</b></a>  &emsp;&emsp;
+  <a href="https://app.box.com/s/htaamjrd4m6drm9jajv8a4l92gbpxvut" target="_blank"><b>Download results</b></a> (External validation coming soon)  &emsp;
   
   <a href="https://app.box.com/s/8ud0jd7s3oi4obal6zd4w0iqe6purx3y" target="_blank"><b>Download model files</b></a> 
 </p>
@@ -26,12 +26,7 @@ Evaluation Metric: <b>Spearman correlation coefficient</b>, <b><i>r</i>  squared
 
 <h2>Validation performance of genetic scores</h2>
 
-<img src="/assets/images/SOMAscan_validation.jpg" alt="drawing"  style=" margin-top: 0.5em; margin-bottom: 1em"/> 
-
-<p>
-  <b>(a)</b>:  Spearman correlation performance comparison between internal and external validation; <br>
-  <b>(b)</b>:  The number of traits whose genetic scores are in different performance ranges in terms of explained variance (R2) between internal and external validation. The inner ring refers to internal validation.<br>
-</p>
+Coming soon
 
 
 
@@ -47,7 +42,7 @@ Evaluation Metric: <b>Spearman correlation coefficient</b>, <b><i>r</i>  squared
 </style>
 
 <table class="display" width="100%">
-   {% for row in site.data.Somalogic_trait_info_list %}
+   {% for row in site.data.Somalogic_trait_info_list_no_ext_val %}
      {% if forloop.first %}
      <thead>
      <tr>
@@ -81,8 +76,8 @@ $('table').DataTable(
     { className: 'dt-center'},
     { className: 'dt-head-center'},
     { className: 'dt-center'},
-    { className: 'dt-center'},
-    { "width": "12%",className: 'dt-center'}
+    { "width": "14%", className: 'dt-center'}
+    
   ]
 
 
