@@ -35,6 +35,9 @@ layout: splash
 # The ORCADES
 ---
 
+<img src="/assets/images/Viking_logo.png" alt="drawing"  style="float: right; margin-left: 1em; margin-top: 1em; width:300px; height:280px"/>
+
+
 [The Orkney Complex Disease Study (ORCADES)](https://mrc.ukri.org/research/facilities-and-resources-for-researchers/cohort-directory/orkney-complex-disease-study-orcades/) is a family-based study that seeks to identify genetic factors influencing cardiovascular and other disease risk in the isolated archipelago of the Orkney Isles in northern Scotland ([McQuillan et al., 2008](https://pubmed.ncbi.nlm.nih.gov/18760389/)). Genetic diversity in this population is decreased compared to Mainland Scotland, consistent with the high levels of endogamy historically. 2078 participants aged 16-100 years were recruited between 2005 and 2011, most having three or four grandparents from Orkney, the remainder with two Orcadian grandparents. Fasting blood samples were collected and many health-related phenotypes and environmental exposures were measured in each individual. Extensive proteomic, methylomic, metabolomic, glycomic and lipidomic data are also available. 
 <br/>
 <br/>
