@@ -24,6 +24,14 @@ layout: splash
 <br/>
 <br/>
 
+
+# The NSPHS
+---
+
+[The Northern Swedish Population Health Study (NSPHS)](https://pubmed.ncbi.nlm.nih.gov/20568910/)) is a Swedish community-based cohort with randomly recruited participants from the parishes of Karesuando and Soppero, County of Norrbotten (median age, 50 years; N = 1,037). People in this area either lead a traditional, subsistence-based, lifestyle mainly based on reindeer herding, hunting and fishing, or a lifestyle similar to other western European countries. The study measures a broad spectrum of environmental (e.g. occupation, diet, physical activity and daylight exposure) and genetic (e.g. single-nucleotide polymorphisms) factors of relevance for health risk. A comprehensive set of health indicators, clinical measures (e.g. blood lipids, proteins) and diagnoses of cardiovascular, orthopedic and metabolic diseases has also been collected. 
+<br/>
+<br/>
+
 # The ORCADES
 ---
 
@@ -32,10 +40,13 @@ layout: splash
 <br/>
 
 
-# The NSPHS
----
 
-[The Northern Swedish Population Health Study (NSPHS)](https://pubmed.ncbi.nlm.nih.gov/20568910/)) is a Swedish community-based cohort with randomly recruited participants from the parishes of Karesuando and Soppero, County of Norrbotten (median age, 50 years; N = 1,037). People in this area either lead a traditional, subsistence-based, lifestyle mainly based on reindeer herding, hunting and fishing, or a lifestyle similar to other western European countries. The study measures a broad spectrum of environmental (e.g. occupation, diet, physical activity and daylight exposure) and genetic (e.g. single-nucleotide polymorphisms) factors of relevance for health risk. A comprehensive set of health indicators, clinical measures (e.g. blood lipids, proteins) and diagnoses of cardiovascular, orthopedic and metabolic diseases has also been collected. 
+# The UK Biobank
+---
+<img src="/assets/images/UKB_largeFeature.png" alt="drawing"  style="float: right; margin-left: 1em; margin-top: 1em; width:320px; height:180px"/>
+
+
+[The UK Biobank](https://www.ukbiobank.ac.uk/) is a prospective cohort study with deep genetic and phenotypic data collected on approximately 500,000 individuals from across the United Kingdom, aged between 40 and 69 at recruitment. A rich variety of phenotypic and health-related information is available on each participant, including biological measurements, lifestyle indicators, biomarkers in blood and urine, and imaging of the body and brain. Follow-up information is provided by linking health and medical records. Genome-wide genotype data have been collected on all participants, providing many opportunities for the discovery of new genetic associations and the genetic bases of complex traits.
 
 <br/>
 <br/>
