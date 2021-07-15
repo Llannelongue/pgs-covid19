@@ -13,6 +13,8 @@ main:
   #   url: /cellular-pgs/
   # - title: "COVID19 phenotypes"
   #   url: /covid19-phenotype/
+  - title: "Cohorts"
+    url: /6d9045bc10baa17648d2959ae285c22339a8344d/cohorts/
   - title: "About"
     url: /6d9045bc10baa17648d2959ae285c22339a8344d/about/
 

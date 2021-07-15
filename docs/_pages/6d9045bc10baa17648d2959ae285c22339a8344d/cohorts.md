@@ -1,0 +1,41 @@
+---
+Title: "Cohorts" 
+layout: splash
+---
+<br/>
+
+# The INTERVAL Study
+---
+
+<img src="/assets/images/interval-logo.png" alt="drawing"  style="float: right; margin-left: 1em; margin-top: 1em; width:320px; height:180px"/>
+
+[INTERVAL](https://www.intervalstudy.org.uk/) is a cohort of healthy blood donors (N~50,000; recruited 2012-2014) which was set up by the Universities of Cambridge and Oxford in collaboration with NHS Blood and Transplant (NHSBT). INTERVAL's design is a randomised trial to study the safety of varying the time interval between blood donations. INTERVAL participants include approx. 25,000 men and 25,000 women, recruited at aged 18 years and older (median 44 years of age) across 25 NSHBT blood donation centres across England. Methods of collection have been [described previously](http://www.intervalstudy.org.uk/files/2019/11/Moore-et-al.-Trials-2014.pdf). As described here, blood samples have been extensively profiled using various omics technologies.
+<br/>
+<br/>
+
+
+# The Fenland Study
+---
+<img src="/assets/images/Fenland_study_logo.png" alt="drawing"  style="float: right; margin-left: 1em; width:300px; height:280px"/>
+
+
+[The Fenland study](https://www.mrc-epid.cam.ac.uk/research/studies/fenland/) is a population-based cohort of about 12,000 participants of Caucasian-ancestry born between 1950 and 1975 who underwent detailed phenotyping at the baseline visit from 2005 to 2015. Participants were recruited from general practice surgeries in the Cambridgeshire region in the UK. The study aims to investigate the interaction between environmental and genetic factors in determining obesity, type 2 diabetes, and related metabolic disorders. These conditions are a considerable public health concern, but their causes and factors that predict who will be affected by them are not completely understood.
+<br/>
+<br/>
+<br/>
+
+# The ORCADES
+---
+
+[The Orkney Complex Disease Study (ORCADES)](https://mrc.ukri.org/research/facilities-and-resources-for-researchers/cohort-directory/orkney-complex-disease-study-orcades/) is a family-based study that seeks to identify genetic factors influencing cardiovascular and other disease risk in the isolated archipelago of the Orkney Isles in northern Scotland ([McQuillan et al., 2008](https://pubmed.ncbi.nlm.nih.gov/18760389/)). Genetic diversity in this population is decreased compared to Mainland Scotland, consistent with the high levels of endogamy historically. 2078 participants aged 16-100 years were recruited between 2005 and 2011, most having three or four grandparents from Orkney, the remainder with two Orcadian grandparents. Fasting blood samples were collected and many health-related phenotypes and environmental exposures were measured in each individual. Extensive proteomic, methylomic, metabolomic, glycomic and lipidomic data are also available. 
+<br/>
+<br/>
+
+
+# The NSPHS
+---
+
+[The Northern Swedish Population Health Study (NSPHS)](https://pubmed.ncbi.nlm.nih.gov/20568910/)) is a Swedish community-based cohort with randomly recruited participants from the parishes of Karesuando and Soppero, County of Norrbotten (median age, 50 years; N = 1,037). People in this area either lead a traditional, subsistence-based, lifestyle mainly based on reindeer herding, hunting and fishing, or a lifestyle similar to other western European countries. The study measures a broad spectrum of environmental (e.g. occupation, diet, physical activity and daylight exposure) and genetic (e.g. single-nucleotide polymorphisms) factors of relevance for health risk. A comprehensive set of health indicators, clinical measures (e.g. blood lipids, proteins) and diagnoses of cardiovascular, orthopedic and metabolic diseases has also been collected. 
+
+<br/>
+<br/>

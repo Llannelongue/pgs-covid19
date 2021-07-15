@@ -61,15 +61,6 @@ Genetic scores were trained on the [INTERVAL cohort](https://www.intervalstudy.o
 <br/>
 <br/>
 
-# The INTERVAL Study
----
-
-<img src="/assets/images/interval-logo.png" alt="drawing"  style="float: right; margin-left: 1em; margin-top: 1em; width:320px; height:180px"/>
-
-INTERVAL is a cohort of healthy blood donors (N~50,000; recruited 2012-2014) which was set up by the Universities of Cambridge and Oxford in collaboration with NHS Blood and Transplant (NHSBT). INTERVAL's design is a randomised trial to study the safety of varying the time interval between blood donations. INTERVAL participants include approx. 25,000 men and 25,000 women, recruited at aged 18 years and older (median 44 years of age) across 25 NSHBT blood donation centres across England. Methods of collection have been [described previously](http://www.intervalstudy.org.uk/files/2019/11/Moore-et-al.-Trials-2014.pdf). As described here, blood samples have been extensively profiled using various omics technologies.
-<br/>
-<br/>
-
 # Platforms with Genetic Scores
 ---
 
