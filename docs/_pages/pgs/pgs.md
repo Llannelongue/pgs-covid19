@@ -1,6 +1,6 @@
 ---
-<!-- permalink: /pgs/ -->
-permalink: /6d9045bc10baa17648d2959ae285c22339a8344d/pgs/
+permalink: /pgs/
+<!-- permalink: /6d9045bc10baa17648d2959ae285c22339a8344d/pgs/ -->
 title: About Genetic Scores
 ---
 
@@ -45,4 +45,4 @@ where:
 | `model_file` |  Path for a genetic model file downloaded from the Atlas
 | `results` | Result file path
 
- 
+

@@ -1,12 +1,12 @@
 main:
   - title: "Home"
-    url: /6d9045bc10baa17648d2959ae285c22339a8344d/ # TBD
+    url: / # password
   - title: "Scores"
-    url: /6d9045bc10baa17648d2959ae285c22339a8344d/pgs/
+    url: /pgs/
   - title: "Applications"
-    url: /6d9045bc10baa17648d2959ae285c22339a8344d/Application/pgs_ukb_disease_associations/
+    url: /Application/pgs_ukb_disease_associations/
   - title: "FAQs"
-    url: /6d9045bc10baa17648d2959ae285c22339a8344d/faqs/
+    url: /faqs/
   # - title: "Molecular PGSs"
   #   url: /molecular-pgs/
   # - title: "Cellular PGSs"
@@ -14,9 +14,9 @@ main:
   # - title: "COVID19 phenotypes"
   #   url: /covid19-phenotype/
   - title: "Cohorts"
-    url: /6d9045bc10baa17648d2959ae285c22339a8344d/cohorts/
+    url: /cohorts/
   - title: "About"
-    url: /6d9045bc10baa17648d2959ae285c22339a8344d/about/
+    url: /about/
 
 pgs:
  # - title: "QC"
@@ -24,15 +24,15 @@ pgs:
   #- title: "Plasma Protein"
     #children:
   - title: Proteomics (Somalogic)
-    url: /6d9045bc10baa17648d2959ae285c22339a8344d/pgs/Somalogic-pgs/
+    url: /pgs/Somalogic-pgs/
   - title: "Proteomics (Olink)"
-    url: /6d9045bc10baa17648d2959ae285c22339a8344d/pgs/Olink-pgs/
+    url: /pgs/Olink-pgs/
   - title: "Metabolomics (Metabolon)"
-    url: /6d9045bc10baa17648d2959ae285c22339a8344d/pgs/Metabolon-pgs/
+    url: /pgs/Metabolon-pgs/
   - title: "Metabolomics (Nightingale)"
-    url: /6d9045bc10baa17648d2959ae285c22339a8344d/pgs/Nightingale-pgs/
+    url: /pgs/Nightingale-pgs/
   - title: "Transcriptomics (Illumina RNAseq)"
-    url: /6d9045bc10baa17648d2959ae285c22339a8344d/pgs/GE-pgs/
+    url: /pgs/GE-pgs/
 
 
 # Application:

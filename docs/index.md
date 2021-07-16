@@ -1,7 +1,7 @@
 ---
 layout: splash
 
-permalink: /6d9045bc10baa17648d2959ae285c22339a8344d/
+<!-- permalink: /6d9045bc10baa17648d2959ae285c22339a8344d/ -->
 
 title: " <br/>OMICSPRED: An atlas of genetic scores for prediction of multi-omics data"
 excerpt: "  <br/>  <br/> "
@@ -11,23 +11,28 @@ header:
 feature_row_pgs:
   - image_path: /assets/images/Somalogic_logo_simple.png
     title: "Proteomics (plasma)"
-    url: /6d9045bc10baa17648d2959ae285c22339a8344d/pgs/Somalogic-pgs/
+    <!-- url: /6d9045bc10baa17648d2959ae285c22339a8344d/pgs/Somalogic-pgs/ -->
+    url: /pgs/Somalogic-pgs/
     excerpt: "2,384 protein genetic scores, validated on the [FENLAND cohort](https://www.mrc-epid.cam.ac.uk/research/studies/fenland/)."
   - image_path: /assets/images/Olink_logo_simple.png
     title: "Proteomics (plasma)"
-    url: /6d9045bc10baa17648d2959ae285c22339a8344d/pgs/Olink-pgs/
+    <!-- url: /6d9045bc10baa17648d2959ae285c22339a8344d/pgs/Olink-pgs/ -->
+    url: /pgs/Olink-pgs/
     excerpt: "308 protein genetic scores, validated on the [NSPHS cohort](https://pubmed.ncbi.nlm.nih.gov/20568910/) and [ORCADES cohort](https://www.ed.ac.uk/viking/about-us/our-studies)."
   - image_path: /assets/images/Metabolon_logo_simple.png
     title: "Metabolomics (plasma)"
-    url: /6d9045bc10baa17648d2959ae285c22339a8344d/pgs/Metabolon-pgs/
+    <!-- url: /6d9045bc10baa17648d2959ae285c22339a8344d/pgs/Metabolon-pgs/ -->
+    url: /pgs/Metabolon-pgs/
     excerpt: "726 metabolite genetic scores, validated on a withheld subset of INTERVAL."
   - image_path: /assets/images/Nightingale_logo_simple.png
     title: "Metabolomics (serum)"
-    url: /6d9045bc10baa17648d2959ae285c22339a8344d/pgs/Nightingale-pgs/
+    url: /pgs/Nightingale-pgs/
+    <!-- url: /6d9045bc10baa17648d2959ae285c22339a8344d/pgs/Nightingale-pgs/ -->
     excerpt: "141 metabolite genetic scores, validated on [UK Biobank](https://www.ukbiobank.ac.uk/)."
   - image_path: /assets/images/RNAseq_logo_simple.png
     title: "Transcriptomics (whole blood)"
-    url: /6d9045bc10baa17648d2959ae285c22339a8344d/pgs/GE-pgs/
+    <!-- url: /6d9045bc10baa17648d2959ae285c22339a8344d/pgs/GE-pgs/ -->
+    url: /pgs/GE-pgs/
     excerpt: "13,668 gene expression genetic scores, validated on a withheld subset of INTERVAL."
 
 
@@ -41,7 +46,8 @@ feature_study_intro:
 feature_phenotype:
   - image_path: /assets/images/UKB_largeFeature.png
     title: "Associations with phenotypes in UK biobank"
-    url: /6d9045bc10baa17648d2959ae285c22339a8344d/Application/pgs_ukb_disease_associations/
+    <!-- url: /6d9045bc10baa17648d2959ae285c22339a8344d/Application/pgs_ukb_disease_associations/ -->
+    url: /Application/pgs_ukb_disease_associations/
     excerpt: "Genetic scores in OMICSPRED have been applied to [UK biobank](https://www.ukbiobank.ac.uk/) to test for associations with various complex phenotypes."
 
 gallery_logos:
@@ -57,7 +63,7 @@ gallery_logos:
 ---
 OMICSPRED is a resource for predicting multi-omics data (proteomics, metabolomics, transcriptomics etc) directly from genotypes. To do this, we have used a single cohort (INTERVAL) with extensive multi-omics data to train genetic scores using machine learning. Here, you can explore and download the genetic scores for a wide range of biomolecular traits in human blood as well as the summary statistics of their associations with key traits and diseases in the UK Biobank.
 
-Genetic scores were trained on the [INTERVAL cohort](https://www.intervalstudy.org.uk/) using [Bayesian Ridge regression](https://scikit-learn.org/stable/auto_examples/linear_model/plot_bayesian_ridge.html). Validation was performed on independent individuals from other cohorts or on withheld subsets of INTERVAL (more info below). Detailed methods and validation steps can be found <a href="/6d9045bc10baa17648d2959ae285c22339a8344d/faqs/">here</a>.
+Genetic scores were trained on the [INTERVAL cohort](https://www.intervalstudy.org.uk/) using [Bayesian Ridge regression](https://scikit-learn.org/stable/auto_examples/linear_model/plot_bayesian_ridge.html). Validation was performed on independent individuals from other cohorts or on withheld subsets of INTERVAL (more info below). Detailed methods and validation steps can be found <a href="/faqs/">here</a>.
 <br/>
 <br/>
 

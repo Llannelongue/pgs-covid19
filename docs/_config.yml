@@ -27,7 +27,7 @@ baseurl: ""
 locale: "en-GB"
 
 # Password hash used to access the website
-passwordHash: 6d9045bc10baa17648d2959ae285c22339a8344d # password: inouyelab # TBD
+# passwordHash: 6d9045bc10baa17648d2959ae285c22339a8344d # password: inouyelab # password
 
 twitter:
   username: "CamBakerSGI"
@@ -52,8 +52,8 @@ minimal_mistakes_skin: air # "default", "air", "aqua", "contrast", "dark", "dirt
 # og_image: /assets/images/site-logo.png
 
 # Default permalink for all pages/posts
-# permalink: /:categories/:title/
-permalink: /6d9045bc10baa17648d2959ae285c22339a8344d/:categories/:title/ # TBD
+permalink: /:categories/:title/
+# permalink: /6d9045bc10baa17648d2959ae285c22339a8344d/:categories/:title/ # password
 # paginate: 3 # amount of posts to show
 # paginate_path: "/blog/page:num/"
 # timezone: # https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
@@ -141,8 +141,8 @@ defaults:
       toc: false
       toc_sticky: true
   - scope:
-      # path: "_pages/pgs"
-      path: "_pages/6d9045bc10baa17648d2959ae285c22339a8344d/pgs" # TBD
+      path: "_pages/pgs"
+      # path: "_pages/6d9045bc10baa17648d2959ae285c22339a8344d/pgs" # password
       type: pages
     values:
       sidebar:
