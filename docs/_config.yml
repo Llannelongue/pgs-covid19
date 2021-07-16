@@ -109,6 +109,7 @@ plugins:
 
 footer:
   links:
+
     - label: "Twitter"
       icon: "fab fa-fw fa-twitter-square"
       url: *labTwitter
@@ -118,6 +119,10 @@ footer:
     - label: "Lab's website"
       icon: "fas fa-link"
       url: &labWebsite "http://www.inouyelab.org"
+    - label: "All genetic scores are provided under a CC-BY license"
+      icon: "fas fa-copyright"
+      url: &copyrightWebsite "https://creativecommons.org/about/cclicenses/"
+
 
 defaults:
   # _posts
