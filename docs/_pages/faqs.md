@@ -18,7 +18,7 @@ These genetic score models can be used to predict levels of biomelecular traits 
 <p> 
 <details>
   <summary><b>How can I download model files of these genetic scores?</b> </summary>
-  You can find a download link (named "Download model files") on the Score page of each platform. Following the link, you will be directed to a clound drive page where we hosted model files of all the considerred traits for the platform. There is a "Download" bottom at right-top corner of the page, which will allow you to download all the model files in bulk. Or you can choose the model file of a trait you are intersted in and download the particular model file in a similar way. Please note that you can only download model files of gene expression traits in bulk as we have compressed them to a single file. 
+  You can find a download link (named "Download model files") on the Score page of each platform. Following the link, you will be directed to a cloud drive page where we hosted model files of all the considerred traits for the platform. There is a "Download" bottom at right-top corner of the page, which will allow you to download all the model files in bulk. Or you can choose the model file of a trait you are intersted in and download the particular model file in a similar way. Please note that you can only download model files of gene expression traits in bulk as we have compressed them to a single file. 
   
 </details> 
 </p>
