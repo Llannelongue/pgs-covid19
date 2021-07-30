@@ -52,4 +52,14 @@ layout: splash
 [The UK Biobank](https://www.ukbiobank.ac.uk/) is a prospective cohort study with deep genetic and phenotypic data collected on approximately 500,000 individuals from across the United Kingdom, aged between 40 and 69 at recruitment. A rich variety of phenotypic and health-related information is available on each participant, including biological measurements, lifestyle indicators, biomarkers in blood and urine, and imaging of the body and brain. Follow-up information is provided by linking health and medical records. Genome-wide genotype data have been collected on all participants, providing many opportunities for the discovery of new genetic associations and the genetic bases of complex traits.
 
 <br/>
+
+
+# The VIKING Health Study
+---
+<img src="/assets/images/Viking_logo2.jpg" alt="drawing"  style="float: right; margin-left: 1em; margin-top: 0.5em; width:300px; height:340px"/>
+
+
+[The VIKING Health Study](https://www.ed.ac.uk/viking/about-us/our-studies) aims to discover the genes and variants that influence the risk of common, complex diseases. Many common diseases are known as complex, because they're influenced by many genes and environmental factors. Common, complex diseases include diabetes, osteoporosis, stroke, heart disease, myopia, glaucoma and chronic kidney and lung disease. Finding the genes involved is the first step on the road to developing new ways of diagnosing and treating these diseases. From March 2013 to March 2015, the study recruited 2,105 volunteers, with at least two grandparents from Shetland. Each volunteer completed a postal health survey questionnaire and attended a 2-hour measurement clinic. They also attended a 20-minute venepuncture clinic, to give a blood sample. The dedicated research clinic was based in Lerwick.
+
+<br/>
 <br/>

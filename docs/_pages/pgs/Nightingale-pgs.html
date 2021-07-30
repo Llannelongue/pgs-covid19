@@ -12,9 +12,9 @@ classes: wide
 Number of traits:  <b>141</b> <br>
 Training cohort:  <a href="https://www.intervalstudy.org.uk"><b>INTERVAL</b></a> <br>
 Training sample size:  <b>8,153</b> <br><br>
-External validation cohort:  <a href="https://www.ukbiobank.ac.uk/"><b>UK Biobank</b></a> <br>
-Number of traits externally validated:  <b>141</b>   <br>
-External cohort sample sizes:  <b>116,830</b> <br>
+External validation cohorts:  <a href="https://www.ukbiobank.ac.uk/"><b>UK Biobank</b></a>, <a href="https://www.ed.ac.uk/viking/about-us/our-studies"><b>ORCADES</b></a>, <a href="https://www.ed.ac.uk/viking/about-us/our-studies"><b>VIKING</b></a> <br>
+Number of traits externally validated:  <b>141</b>, <b>141</b> and <b>141</b>   <br>
+External cohort sample sizes:  <b>116,830</b>, <b>1,884</b> and <b>2,046</b> <br>
 Evaluation Metric: <b>Spearman correlation coefficient</b>, <b><i>r</i>  squared (<i>r</i><sup>2</sup>) </b><br>
 </p>
 
@@ -23,7 +23,7 @@ Evaluation Metric: <b>Spearman correlation coefficient</b>, <b><i>r</i>  squared
 <h2>Downloads</h2>
 
 <p>
-  <a href="https://app.box.com/s/br70xhlb32ps8b46k1dyxvn88gstrw94" target="_blank"><b>Download results</b></a>  &emsp;&emsp;
+  <a href="https://app.box.com/s/9x4jqoh7urxwqsxwoctcxthjtoyxm0vu" target="_blank"><b>Download results</b></a>  &emsp;&emsp;
   
   <a href="https://app.box.com/s/7e6vl3z8j880rkzxddufw0mtpxfw985z" target="_blank"><b>Download model files</b></a> 
 </p>
@@ -33,11 +33,13 @@ Evaluation Metric: <b>Spearman correlation coefficient</b>, <b><i>r</i>  squared
 
 <h2>Validation performance of genetic scores</h2>
 
-<img src="/assets/images/Nightingale_validation.jpg" alt="drawing"  style=" margin-top: 0.5em; margin-bottom: 1em"/> 
+<img src="/assets/images/Nightingale_validation.png" alt="drawing"  style=" margin-top: 0.5em; margin-bottom: 1em"/> 
 
 <p>
-  <b>(a)</b>:  Spearman correlation performance comparison between internal and external validation; <br>
-  <b>(b)</b>:  The number of traits whose genetic scores are in different performance ranges in terms of explained variance (R2) between internal and external validation. The inner ring refers to internal validation.<br>
+  <b>(a1)</b>:  Spearman correlation performance comparison between internal and external validation (UKB); <br>
+  <b>(a2)</b>:  Spearman correlation performance comparison between internal and external validation (ORCADES); <br>
+  <b>(a3)</b>:  Spearman correlation performance comparison between internal and external validation (VIKING); <br>
+  <b>(b)</b>:  The number of traits whose genetic scores are in different performance ranges in terms of explained variance (R2) between internal and external validation.<br>
 </p>
 
 
@@ -88,7 +90,7 @@ $('table').DataTable(
    { className: 'dt-head-center'},
    { className: 'dt-center'},
    { className: 'dt-center'},
-   { className: 'dt-center'}
+   { className: 'dt-center'}, { className: 'dt-center'}, { className: 'dt-center'}
  ]
 
   }

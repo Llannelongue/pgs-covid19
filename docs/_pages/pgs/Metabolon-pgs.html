@@ -12,15 +12,15 @@ classes: wide
 Number of traits:  <b>726</b> <br>
 Training cohort:  <a href="https://www.intervalstudy.org.uk"><b>INTERVAL</b></a> <br>
 Training sample size:  <b>8,153</b> <br> <br>
-External validation cohort:  <a href="https://www.intervalstudy.org.uk"><b>INTERVAL withheld subset</b></a> <br>
-Number of traits validated:  <b>527</b>   <br>
-Validation sample sizes:  <b>8,114</b> <br>
+External validation cohorts:  <a href="https://www.intervalstudy.org.uk"><b>INTERVAL withheld subset</b></a>, <a href="https://www.ed.ac.uk/viking/about-us/our-studies"><b>ORCADES</b></a> <br>
+Number of traits validated:  <b>527</b>  and <b>455</b>   <br>
+Validation sample sizes:  <b>8,114</b> and <b>1,007</b> <br>
 Evaluation Metric: <b>Spearman correlation coefficient</b>, <b><i>r</i>  squared (<i>r</i><sup>2</sup>) </b><br>
 </p>
 
 <h2>Downloads</h2>
 <p>
-  <a href="https://app.box.com/s/ysnz2cxcla1e23flyapnwv4kzsn3y15a"  target="_blank"><b>Download results</b></a>  &emsp;&emsp;
+  <a href="https://app.box.com/s/2lnjkv7e1l3je6f0v4wacumnz08mmf00"  target="_blank"><b>Download results</b></a>  &emsp;&emsp;
   
   <a href="https://app.box.com/s/krvivqp2u5h6n72tnsgz2rgg7bsjssuv"  target="_blank"><b>Download model files</b></a> 
 </p>
@@ -29,11 +29,12 @@ Evaluation Metric: <b>Spearman correlation coefficient</b>, <b><i>r</i>  squared
 
 <h2>Validation performance of genetic scores</h2>
 
-<img src="/assets/images/Metabolon_validation.jpg" alt="drawing"  style=" margin-top: 0.5em; margin-bottom: 1em"/> 
+<img src="/assets/images/Metabolon_validation.png" alt="drawing"  style=" margin-top: 0.5em; margin-bottom: 1em"/> 
 
 <p>
-  <b>(a)</b>:  Spearman correlation performance comparison between internal and external validation; <br>
-  <b>(b)</b>:  The number of traits whose genetic scores are in different performance ranges in terms of explained variance (R2) between internal and external validation. The inner ring refers to internal validation.<br>
+  <b>(a1)</b>:  Spearman correlation performance comparison between internal and external validation (INTERVAL withheld subset); <br>
+  <b>(a2)</b>:  Spearman correlation performance comparison between internal and external validation (ORCADES); <br>
+  <b>(b)</b>:  The number of traits whose genetic scores are in different performance ranges in terms of explained variance (R2) between internal and external validation.<br>
 </p>
 
 
@@ -72,17 +73,18 @@ Evaluation Metric: <b>Spearman correlation coefficient</b>, <b><i>r</i>  squared
 $('table').DataTable(
   {autoWidth: false,
      ordering: true,
-     "order": [[ 4, 'dsc' ]],
+     "order": [[ 5, 'dsc' ]],
 
      autoFill: true,
  "columns": [
-   { "width": "10%", className: 'dt-center'},
+   { "width": "12%", className: 'dt-center'},
    { "width": "12%",className: 'dt-head-center' },
    { className: 'dt-head-center'},
    { className: 'dt-head-center'},
    { className: 'dt-center'},
    { className: 'dt-center'},
-   { "width": "12%",className: 'dt-center'}
+   { className: 'dt-center'},
+   { className: 'dt-center'}
  ]
 
 

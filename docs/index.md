@@ -23,12 +23,12 @@ feature_row_pgs:
     title: "Metabolomics (plasma)"
     <!-- url: /6d9045bc10baa17648d2959ae285c22339a8344d/pgs/Metabolon-pgs/ -->
     url: /pgs/Metabolon-pgs/
-    excerpt: "726 metabolite genetic scores, validated on a withheld subset of INTERVAL."
+    excerpt: "726 metabolite genetic scores, validated on a withheld subset of INTERVAL and [ORCADES cohort](https://www.ed.ac.uk/viking/about-us/our-studies)."
   - image_path: /assets/images/Nightingale_logo_simple.png
     title: "Metabolomics (serum)"
     url: /pgs/Nightingale-pgs/
     <!-- url: /6d9045bc10baa17648d2959ae285c22339a8344d/pgs/Nightingale-pgs/ -->
-    excerpt: "141 metabolite genetic scores, validated on [UK Biobank](https://www.ukbiobank.ac.uk/)."
+    excerpt: "141 metabolite genetic scores, validated on [UK Biobank](https://www.ukbiobank.ac.uk/), [ORCADES cohort](https://www.ed.ac.uk/viking/about-us/our-studies) and [VIKING cohort](https://www.ed.ac.uk/viking/about-us/our-studies)."
   - image_path: /assets/images/RNAseq_logo_simple.png
     title: "Transcriptomics (whole blood)"
     <!-- url: /6d9045bc10baa17648d2959ae285c22339a8344d/pgs/GE-pgs/ -->
@@ -61,7 +61,7 @@ gallery_logos:
 ---
 # Summary
 ---
-OMICSPRED is a resource for predicting multi-omics data (proteomics, metabolomics, transcriptomics etc) directly from genotypes. To do this, we have used a single cohort (INTERVAL) with extensive multi-omics data to train genetic scores using machine learning. Here, you can explore and download the genetic scores for a wide range of biomolecular traits in human blood as well as the summary statistics of their associations with key traits and diseases in the UK Biobank.
+OMICSPRED is a resource for predicting multi-omics data (proteomics, metabolomics, transcriptomics etc.) directly from genotypes. To do this, we have used a single cohort (INTERVAL) with extensive multi-omics data to train genetic scores using machine learning. Here, you can explore and download the genetic scores for a wide range of biomolecular traits in human blood as well as the summary statistics of their associations with key traits and diseases in the UK Biobank.
 
 Genetic scores were trained on the [INTERVAL cohort](https://www.intervalstudy.org.uk/) using [Bayesian Ridge regression](https://scikit-learn.org/stable/auto_examples/linear_model/plot_bayesian_ridge.html). Validation was performed on independent individuals from other cohorts or on withheld subsets of INTERVAL (more info below). Detailed methods and validation steps can be found <a href="/faqs/">here</a>.
 <br/>
