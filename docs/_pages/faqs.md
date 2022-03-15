@@ -10,7 +10,7 @@ layout: splash
 <p> 
 <details>
   <summary><b>What can we do with these genetic score models?</b> </summary>
-These genetic score models can be used to predict levels of biomelecular traits in genotyped cohorts. The predicted levels can be associated with complex phenotypes, which offers as a useful tool to investigate the molecular underpinnings of these phenotypes. The predicted levels can also allow integrative analyses with other available biomelucular traits in the cohort.
+These genetic score models can be used to predict levels of biomolecular traits in genotyped cohorts. The predicted levels can be associated with complex phenotypes, which offers as a useful tool to investigate the molecular underpinnings of these phenotypes. The predicted levels can also allow integrative analyses with other available biomelucular traits in the cohort.
   
 </details> 
 </p>

@@ -82,7 +82,7 @@ Genetic scores were trained on the [INTERVAL cohort](https://www.intervalstudy.o
 
 # Citation
 ---
-OMICSPRED is under active development, and we will continue to add genetic scores. If you use OMICSPRED in your research, we ask that you cite our submitted ASHG 2021 abstract for now (below). A full manuscript is in preparation and is anticipated to be preprinted in Q3/Q4 2021.
+OMICSPRED is under active development, and we will continue to add genetic scores. If you use OMICSPRED in your research, we ask that you cite our submitted ASHG 2021 abstract for now (below). A full manuscript is in preparation and is anticipated to be preprinted in Q1 2022.
 
 Manuscript: <em> Xu Y. et al. </em> An atlas of genetic scores to predict multi-omic biomolecular traits in blood. (in preparation)
 
