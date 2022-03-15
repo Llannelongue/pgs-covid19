@@ -30,7 +30,7 @@ These genetic score models can be used to predict levels of biomolecular traits 
 <p> 
 <details>
   <summary><b>What method was used for genetic score development and why?</b> </summary>
-   The machine learning method Bayesian Ridge (BR), that based on individual-level genotype data, was used to construct genetic scores of biomelecular traits in the Atlas. The selection of BR is based on the results in <a href="https://www.biorxiv.org/content/10.1101/2020.02.17.952788v1">one of our previous studies</a> that benchmarked the performance of a variety of representative genetic scoring methods for the construction of numerous continuous molecullar traits, and demonstrated BR was the top performing method in terms of both efficacy and efficiency.
+   The machine learning method Bayesian Ridge (BR), that based on individual-level genotype data, was used to construct genetic scores of biomolecular traits in the Atlas. The selection of BR is based on the results in <a href="https://www.biorxiv.org/content/10.1101/2020.02.17.952788v1">one of our previous studies</a> that benchmarked the performance of a variety of representative genetic scoring methods for the construction of numerous continuous molecular traits, and demonstrated BR was the top performing method in terms of both efficacy and efficiency.
   
 </details> 
 </p>
